@@ -6,7 +6,7 @@ Label: OpenBosniana-H-K Repository
 Suite: 2024
 Codename: OpenBosniana-H-K-updates
 Version: 2024
-Date: Sun, 09 Jun 2024 22:52:39 UTC
+Date: Sun, 09 Jun 2024 23:28:56 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  0275376208993972fe9f746debb2449e7e22c753b77883d56c97d86317fde034 201 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZmMjgACgkQ5Vfn9vbt
-T6ogUBAAqlS6bdEhc9qiop/9HS1PwdKLK90gyga627IKAY41kTCqTUAmxl97WSDI
-dZ04gISfp3joOLnWx9DJvSW+Az8hPR31Gjzg0aVNDiIxa/XuMocXVY2JiiTUwIy+
-hmgX4sqiKbdMM9b+GRHN8iVY0k+EANBlk0yDfXzyIU31j5k7ehbWCbd7RKMETaG4
-KcCW+dsH+WH8ukm/107TJclppcGZdP2Tg6Un0K1G/3mLDhzojUCjGZEk4IqUuap1
-Vxbcj9THEw8MBYnr/QFi74ZtV2l7asLzmslbLYvpCM2+e0VEEgfTheb01asqrae2
-73x0unAKHxwfjqkffKUbYnINV9HnpSjtqZx7vwAEIAX0JKgEfLdVCRGQLDGZzYgg
-/9DYS9qY0/aiMrkKVxZLoJcZxH81G1Hl0kHGCbST4eS7jjodEtgqnbN7frIZAv27
-srKU3/FZoJlrG4wu/z4H+t1GPnaUOacib7UtBrkXA5Q43y4jDmx33RykIb9XWEgq
-7ar/aYnXr9UyIYPbL0aRik8Bh5xCneaLlcIIWuAFWUO7Xcs7sj7Zuyp3J1NWf+Um
-tdxRXwLSQT9W0W+CystkC08CYj7VQqLLzYUpfZdhcqeSyDDQsys83hMJzmpvcdz7
-HuWM9D3u9uY0tksp0TZSI7QMYUwjYkgcCAbuXsw1VhMdz9MYnNc=
-=sIKL
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZmOrgACgkQ5Vfn9vbt
+T6p9Cw//ZAnTX/ezx41s9hWYaRInuJiGWZubjmQ7sSqo0z3bfrhXHbspcFYEDJTA
++gaaRazEbMxxJ0ZI4aCreuc+w6toR5Zmt7T1HVU5xdBjSK0mYgxp/w6+Am+QEX/H
+JG37LDUW6S6RJydK1ckZrFFbCyU7KXzXM/jJfUkd0g5xhMwLsXjrN0foJUZJgeDs
+tTK5fX14nBu00GCqIRIJv+vx9JhalMlRkvnqCMEVkOuwXVHKfss/Umf3P6EeKz9H
+dKQjEGXnT5z3Y9e2ZR6WWymnUy80s3rLDw6oyBjrMMa4xrDjozyi16tmBadOSBCB
+5cAD5tuvoIk2oC1mr1yu0nb9RqusNx8Wl2/64jxdbn+xt45LTnjAYpXbHwuDdFfm
+0ldnPqr8l8PUsE4isnl2QHh8Eofw8KMS61m2bJtdsKVDmg+rQahjPiqi3EL6RuYa
+IFYS3C/emOH7MXAIIP/O18czYpGQ5szBQCRpswa7GJh3W+Ui3+aa0qJI+zGn2ZJl
+yGmT4xVwkH/B3iPIJsHocLypS6GwBQ35ysHkQnSjzWlHNyXYT6O5G89qkHa6LSIM
+pU2PJv+unVq8AGQdULwaEbcAPzlH914shhI7aB7Fg5m3BAnqfTgh9nwP8v0Y61EO
+WDiCyQhQehhy5sq/Eeqr/dO1iDSxg/lAeniMypn4xsp+iAfF8E0=
+=a+hQ
 -----END PGP SIGNATURE-----

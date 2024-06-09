@@ -2667,6 +2667,33 @@ Description: profile hidden Markov models for protein sequence analysis (docs)
  .
  This package contains the documentation and a tutorial for the hmmer package.
 
+Package: hmmer-examples
+Source: hmmer
+Version: 3.3.2+dfsg-1
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 32915
+Depends: libperl4-corelibs-perl
+Homepage: http://hmmer.org/
+Priority: optional
+Section: doc
+Filename: pool/main/h/hmmer/hmmer-examples_3.3.2+dfsg-1_all.deb
+Size: 32286128
+SHA256: 6786e1e2862f4649ec9216316406b1ecd4e552c220abd26a091281287013b3bc
+SHA1: 01e7aed252944d84406112744b5bc1887bb1b9a2
+MD5sum: 4c6aa228389ebb6a7c4876344def2ad1
+Description: profile hidden Markov models for protein sequence analysis (examples)
+ HMMER is an implementation of profile hidden Markov model methods for
+ sensitive searches of biological sequence databases using multiple sequence
+ alignments as queries.
+ .
+ Given a multiple sequence alignment as input, HMMER builds a statistical
+ model called a "hidden Markov model" which can then be used as a query into
+ a sequence database to find (and/or align) additional homologues of the
+ sequence family.
+ .
+ This package contains example files to test the hmmer package.
+
 Package: hmmer2-doc
 Source: hmmer2
 Version: 2.3.2+dfsg-8
@@ -4319,6 +4346,29 @@ Description: advanced drum machine/step sequencer (doc)
  yet simple and intuitive, pattern-based drum programming interface.
  .
  This package contains the architecture-independent documentation.
+
+Package: hyperrogue-music
+Source: hyperrogue
+Version: 12.0q-1
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 64485
+Suggests: hyperrogue
+Multi-Arch: foreign
+Homepage: https://www.roguetemple.com/z/hyper/
+Priority: optional
+Section: games
+Filename: pool/main/h/hyperrogue/hyperrogue-music_12.0q-1_all.deb
+Size: 63836788
+SHA256: 61ab9f4c2169442d85f42c42d26e80c1a18b93c741f3d44f1b9d83015904e7f7
+SHA1: 442cd1ba973fc94c4953a5b1e8907ea93bd3a98e
+MD5sum: 4f47c277f68f8d98ff9627b058c21645
+Description: in-game music for hyperrogue
+ HyperRogue is a game in which the player collects treasures and fights
+ monsters -- rogue-like but for the fact that it is played on the hyperbolic
+ plane and not in euclidean space.
+ .
+ This package contains the in-game music.
 
 Package: hyphen-as
 Source: hyphen-indic
@@ -8967,6 +9017,195 @@ Description: Receive a message on system installation anniversary
  The installation date is based on the system installation time, not this
  package. The email is sent via cron(8).
 
+Package: installation-guide-amd64
+Source: installation-guide
+Version: 20230508+deb12u1
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 31566
+Conflicts: installation-guide
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Filename: pool/main/i/installation-guide/installation-guide-amd64_20230508+deb12u1_all.deb
+Size: 17999808
+SHA256: 812c43e1dc906daf671e3efe953dc023205c238e5bd5a3021ce4ca142793573a
+SHA1: b52b963d83724454f5612d4fa3242cd98935cbe0
+MD5sum: dbdc7e9c44eb9ef88cda4a590f20647c
+Description: Debian installation guide for amd64
+ This package contains the Debian installation guide for the AMD64
+ architecture, in a variety of languages.
+ .
+ A shorter reference, the installation HOWTO, is included in an appendix.
+
+Package: installation-guide-arm64
+Source: installation-guide
+Version: 20230508+deb12u1
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 29407
+Conflicts: installation-guide
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Filename: pool/main/i/installation-guide/installation-guide-arm64_20230508+deb12u1_all.deb
+Size: 16822644
+SHA256: 0d44128404c8ffea0232ebd447bc93d3babc429953d5ec438a9ebe219581fb84
+SHA1: 3f31f7a63c2fde547df23de790c231421e91ce3f
+MD5sum: b4504beb599218d17aee267726e88cc0
+Description: Debian installation guide for arm64
+ This package contains the Debian installation guide for the 64bit ARM
+ architecture, in a variety of languages.
+ .
+ A shorter reference, the installation HOWTO, is included in an appendix.
+
+Package: installation-guide-armel
+Source: installation-guide
+Version: 20230508+deb12u1
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 28700
+Conflicts: installation-guide
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Filename: pool/main/i/installation-guide/installation-guide-armel_20230508+deb12u1_all.deb
+Size: 16428984
+SHA256: bc0e805341a20d2caa092c530d0694b9cf75b97a1c97b78fc5cab2913cf90444
+SHA1: f6b4779f2e3d6dbfb1dbd3946c007952dc45c18c
+MD5sum: 839bddcae89fa99013b177c64d5cfe81
+Description: Debian installation guide for armel
+ This package contains the Debian installation guide for the ARM
+ architecture, in a variety of languages.
+ .
+ A shorter reference, the installation HOWTO, is included in an appendix.
+
+Package: installation-guide-armhf
+Source: installation-guide
+Version: 20230508+deb12u1
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 29385
+Conflicts: installation-guide
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Filename: pool/main/i/installation-guide/installation-guide-armhf_20230508+deb12u1_all.deb
+Size: 16849824
+SHA256: eaddb588c7c4503813aa26124c44f27094458918392705cb320506abb0703a61
+SHA1: 4240621e95aeceebfbf696f538f716c6d6c565e9
+MD5sum: c9415da3c215cfb7be25a2e5b8fac0b6
+Description: Debian installation guide for armhf
+ This package contains the Debian installation guide for the ARM
+ with Hardware FPU architecture, in a variety of languages.
+ .
+ A shorter reference, the installation HOWTO, is included in an appendix.
+
+Package: installation-guide-i386
+Source: installation-guide
+Version: 20230508+deb12u1
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 31650
+Conflicts: installation-guide
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Filename: pool/main/i/installation-guide/installation-guide-i386_20230508+deb12u1_all.deb
+Size: 18057684
+SHA256: a64998c6c7483e96815088531663da1df3046a4f6ed743db62fa8edcc2f25e0b
+SHA1: b89eb53b79658162d5ed0919032949fa505c110d
+MD5sum: 10a7400af546e1e56c73d61ffe261854
+Description: Debian installation guide for i386
+ This package contains the Debian installation guide for the Intel x86
+ architecture, in a variety of languages.
+ .
+ A shorter reference, the installation HOWTO, is included in an appendix.
+
+Package: installation-guide-mips64el
+Source: installation-guide
+Version: 20230508+deb12u1
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 27636
+Conflicts: installation-guide
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Filename: pool/main/i/installation-guide/installation-guide-mips64el_20230508+deb12u1_all.deb
+Size: 15772864
+SHA256: 152e9cc7ff8f9eaecdf2f96ce7d961b567fb1c5d9c86b49fc7d9d6a82fe006c8
+SHA1: a897bce7c9bc9e34b2d7f3f38e0e0d6564212a7e
+MD5sum: 748e2ce870e7d984803fd1e4bd3a55ef
+Description: Debian installation guide for mips64el
+ This package contains the Debian installation guide for the little-endian
+ 64bit MIPS architecture, in a variety of languages.
+ .
+ A shorter reference, the installation HOWTO, is included in an appendix.
+
+Package: installation-guide-mipsel
+Source: installation-guide
+Version: 20230508+deb12u1
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 27602
+Conflicts: installation-guide
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Filename: pool/main/i/installation-guide/installation-guide-mipsel_20230508+deb12u1_all.deb
+Size: 15754704
+SHA256: b0f9e15791af75126a0641b74bb2a4562930e1b2b7644c5f42eb3b0ef8a773b7
+SHA1: c417f93baab6062427887437ca5667aa26ddde0f
+MD5sum: 7d7d0ca39d52e0f1f1326a4ee327b597
+Description: Debian installation guide for mipsel
+ This package contains the Debian installation guide for the little-endian
+ 32bit MIPS architecture, in a variety of languages.
+ .
+ A shorter reference, the installation HOWTO, is included in an appendix.
+
+Package: installation-guide-ppc64el
+Source: installation-guide
+Version: 20230508+deb12u1
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 28343
+Conflicts: installation-guide
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Filename: pool/main/i/installation-guide/installation-guide-ppc64el_20230508+deb12u1_all.deb
+Size: 16189276
+SHA256: 0d1d1e85e7d18e698878b3f88f3ac77a57606d87657b7964b9ff1c26a2744ed1
+SHA1: cd0e24363bf963c7831b407c47fb9407dfa146bc
+MD5sum: 2b53b1ffd9a1d1a160783fde3945825f
+Description: Debian installation guide for powerpc
+ This package contains the Debian installation guide for the little-endian
+ 64bit PowerPC architecture, in a variety of languages.
+ .
+ A shorter reference, the installation HOWTO, is included in an appendix.
+
+Package: installation-guide-s390x
+Source: installation-guide
+Version: 20230508+deb12u1
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 25270
+Conflicts: installation-guide
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Filename: pool/main/i/installation-guide/installation-guide-s390x_20230508+deb12u1_all.deb
+Size: 14509420
+SHA256: f807d84ceb308ae2924126a6d0ba42685023376dee81af3671f0add5106937cd
+SHA1: 7055e534495faccd531cf315aed020a5b7a77d53
+MD5sum: 1796c439183b3b67c773a4b3b299e306
+Description: Debian installation guide for s390x
+ This package contains the Debian installation guide for the 64bit S/390
+ architecture, in a variety of languages.
+ .
+ A shorter reference, the installation HOWTO, is included in an appendix.
+
 Package: installation-report
 Version: 2.89
 Architecture: all
@@ -9265,6 +9504,67 @@ Description: Open Inventor documentation
  text, materials, cameras, lights, trackballs, handle boxes, 3D viewers, and
  editors can speed up your programming and extend your 3D program's
  capabilities.
+
+Package: invesalius
+Version: 3.1.99998-4
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 51388
+Depends: python3:any, python3-numpy, python3-scipy, python3-skimage, python3-wxgtk4.0, python3-pil, python3-gdcm, python3-vtk9, python3-nibabel, python3-serial, python3-psutil, python3-h5py, python3-imageio, python3-pubsub, python3-torch, invesalius-bin
+Homepage: https://www.cti.gov.br/invesalius/
+Priority: optional
+Section: graphics
+Filename: pool/main/i/invesalius/invesalius_3.1.99998-4_all.deb
+Size: 43861020
+SHA256: cb80870286d50de1949a8ce8a7a445c40067f0e7b713eae1a3bf76419d9b56da
+SHA1: 7805e2873cb14e0db692a0481013ec63ef05e05d
+MD5sum: 71efb3e217f36b77f8afb308d06d9fb4
+Description: 3D medical imaging reconstruction software
+ InVesalius generates 3D medical imaging reconstructions based on a sequence of
+ 2D DICOM files acquired with CT or MRI equipments. InVesalius is
+ internationalized (currently available in English, Portuguese, French,
+ Spanish, Turkish, Italian, Czesh, Japanese, Catalan, Korean, Romanian and
+ German) and provides several tools:
+  * DICOM support including: (a) ACR-NEMA version 1 and 2; (b) DICOM
+    version 3.0 (including various encodings of JPEG -lossless and lossy-, RLE)
+  * Image manipulation features (zoom, pan, rotation, brightness/contrast,
+    etc)
+  * Segmentation based on 2D slices
+  * Pre-defined threshold ranges according to tissue of interest
+  * Segmentation based on watershed
+  * Region growing segmentation
+  * Edition tools (similar to Paint Brush) based on 2D slices
+  * Semi-automatic segmentation based on Watershed
+  * 3D surface creation
+  * 3D surface connectivity tools
+  * 3D surface exportation (including: binary STL, OBJ, VRML, Inventor)
+  * High-quality volume rendering projection
+  * Pre-defined volume rendering presets
+  * Volume rendering crop plane
+  * Picture exportation (including: BMP, TIFF, JPG, PostScript, POV-Ray)
+  * Minimum, Maximum or Mean Intensity Projection, Maximum Intensity Difference
+    Accumulation and Contour based visualizations
+
+Package: invesalius-examples
+Source: invesalius
+Version: 3.1.99998-4
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 18298
+Multi-Arch: foreign
+Homepage: https://www.cti.gov.br/invesalius/
+Priority: optional
+Section: graphics
+Filename: pool/main/i/invesalius/invesalius-examples_3.1.99998-4_all.deb
+Size: 18696652
+SHA256: f2f14bdfef6dc3812eafc5013d133c6c18370aaab5666b78d54af2e7db432f97
+SHA1: 2dd502ad50f4781e50786a227de2a64ddc32191b
+MD5sum: 3f5def7ec63c6d0d2b9527281d2a98da
+Description: examples for 3D medical imaging reconstruction software
+ InVesalius generates 3D medical imaging reconstructions based on a sequence of
+ 2D DICOM files acquired with CT or MRI equipments.
+ .
+ This package contains a sample file to open in InVesalius.
 
 Package: inxi
 Version: 3.3.26-1-1
@@ -13275,6 +13575,34 @@ Description: kernel-based SIIT and NAT64 (IP/ICMP translation)
  This package contains the kernel modules. The jool-tools package contains the
  userspace configuration clients.
 
+Package: josm
+Version: 0.0.svn18646+dfsg-1
+Architecture: all
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Installed-Size: 29565
+Depends: default-jre (>= 2:1.9) | java9-runtime, fonts-noto, jmapviewer (>= 2.16), libcommons-compress-java, libgettext-commons-java (>= 0.9.6), openjfx, proj-data
+Recommends: josm-l10n (= 0.0.svn18646+dfsg-1)
+Conflicts: josm-plugins
+Homepage: https://josm.openstreetmap.de
+Priority: optional
+Section: utils
+Filename: pool/main/j/josm/josm_0.0.svn18646+dfsg-1_all.deb
+Size: 16033020
+SHA256: efd982c63a49cd07dcd0776bf9a0f85bca33e7a2a7d454477da3fa9c01baa6a1
+SHA1: 6b184fcebcc762cde967b9652f93aac36a81b6e1
+MD5sum: b09010eca7ff31e71aef01549df10d7a
+Description: Editor for OpenStreetMap
+ JOSM is an editor for OpenStreetMap (OSM) written in Java.
+ The current version supports stand alone GPX tracks, GPX track data
+ from OSM database and existing nodes, line segments and metadata tags
+ from the OSM database.
+ .
+ OpenStreetMap is a project aimed squarely at creating and providing
+ free geographic data such as street maps to anyone who wants them.
+ The project was started because most maps you think of as free actually
+ have legal or technical restrictions on their use, holding back people
+ from using them in creative, productive or unexpected ways.
+
 Package: josm-l10n
 Source: josm
 Version: 0.0.svn18646+dfsg-1
@@ -13370,6 +13698,37 @@ MD5sum: 982ead18f4a6dc6700a572f540b54431
 Description: Alternative jQuery Documentation
  JQAPI is inspired by the Rails API. The content is the same as in the
  official documentation and all credits belong to the jQuery team.
+
+Package: jruby
+Version: 9.3.9.0+ds-8
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 55672
+Depends: default-jre-headless, libbcpkix-java (>= 1.71), libbcprov-java (>= 1.71), libbctls-java (>= 1.71), libbcutil-java (>= 1.71), libjansi1-java, libjffi-jni (>= 1.3.9), libjline2-java (>= 2.14.6), libyaml-snake-java (>= 1.33), libasm-java (>= 9.4), libbackport9-java (>= 1.10), libdirgra-java, libheadius-options-java (>= 1.4), libinvokebinder-java (>= 1.12), libjcodings-java (>= 1.0.58), libjffi-java (>= 1.3.9), libjitescript-java, libjnr-constants-java (>= 0.10.4), libjnr-enxio-java (>= 0.32.13), libjnr-ffi-java (>= 2.2.7), libjnr-netdb-java (>= 1.1.6), libjnr-posix-java (>= 3.1.10), libjnr-unixsocket-java (>= 0.18), libjoda-time-java (>= 2.10.14), libjruby-joni-java, libjzlib-java
+Recommends: fonts-lato
+Breaks: jruby-openssl
+Replaces: jruby-openssl
+Homepage: http://jruby.org/
+Priority: optional
+Section: ruby
+Filename: pool/main/j/jruby/jruby_9.3.9.0+ds-8_all.deb
+Size: 42734284
+SHA256: 275066ad40a24dd8d283ee5097387fbf934006d9596c30d4c7705d2b7f743a2a
+SHA1: 189f6864da50c5c8bcd3d709fc31c5c80d34aad0
+MD5sum: c5e176462f0bedd985641230c334c095
+Description: 100% pure-Java implementation of Ruby
+ JRuby is an implementation of the ruby language using the JVM.
+ .
+ It aims to be a complete, correct and fast implementation of Ruby, at the
+ same time as providing powerful new features such as concurrency without a
+ global interpreter lock, true parallelism and tight integration to the Java
+ language to allow one to use Java classes in Ruby programs and to allow
+ JRuby to be embedded into a Java application.
+ .
+ JRuby can be used as a faster version of Ruby, it can be used to run Ruby
+ on the JVM and access powerful JVM libraries such as highly tuned concurrency
+ primitives, it can also be used to embed Ruby as a scripting language in your
+ Java program, or many other possibilities.
 
 Package: js2-mode
 Version: 0~20201220-1
@@ -14537,6 +14896,28 @@ Description: near-optimal RNA-Seq quantification (example data)
  outperforms existing tools.
  .
  This package contains usage examples which are used in autopkgtest.
+
+Package: kalzium-data
+Source: kalzium
+Version: 4:22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 39069
+Breaks: kde-l10n-ar (<< 4:16.04.3-6~), kde-l10n-ast (<< 4:16.04.3-6~), kde-l10n-bg (<< 4:16.04.3-6~), kde-l10n-bs (<< 4:16.04.3-6~), kde-l10n-ca (<< 4:16.04.3-6~), kde-l10n-cavalencia (<< 4:16.04.3-6~), kde-l10n-cs (<< 4:16.04.3-6~), kde-l10n-da (<< 4:16.04.3-6~), kde-l10n-de (<< 4:16.04.3-6~), kde-l10n-el (<< 4:16.04.3-6~), kde-l10n-engb (<< 4:16.04.3-6~), kde-l10n-eo (<< 4:16.04.3-6~), kde-l10n-es (<< 4:16.04.3-6~), kde-l10n-et (<< 4:16.04.3-6~), kde-l10n-eu (<< 4:16.04.3-6~), kde-l10n-fa (<< 4:16.04.3-6~), kde-l10n-fi (<< 4:16.04.3-6~), kde-l10n-fr (<< 4:16.04.3-6~), kde-l10n-ga (<< 4:16.04.3-6~), kde-l10n-gl (<< 4:16.04.3-6~), kde-l10n-he (<< 4:16.04.3-6~), kde-l10n-hi (<< 4:16.04.3-6~), kde-l10n-hr (<< 4:16.04.3-6~), kde-l10n-hu (<< 4:16.04.3-6~), kde-l10n-ia (<< 4:16.04.3-6~), kde-l10n-id (<< 4:16.04.3-6~), kde-l10n-is (<< 4:16.04.3-6~), kde-l10n-it (<< 4:16.04.3-6~), kde-l10n-ja (<< 4:16.04.3-6~), kde-l10n-kk (<< 4:16.04.3-6~), kde-l10n-km (<< 4:16.04.3-6~), kde-l10n-ko (<< 4:16.04.3-6~), kde-l10n-lt (<< 4:16.04.3-6~), kde-l10n-lv (<< 4:16.04.3-6~), kde-l10n-mr (<< 4:16.04.3-6~), kde-l10n-nb (<< 4:16.04.3-6~), kde-l10n-nds (<< 4:16.04.3-6~), kde-l10n-nl (<< 4:16.04.3-6~), kde-l10n-nn (<< 4:16.04.3-6~), kde-l10n-pa (<< 4:16.04.3-6~), kde-l10n-pl (<< 4:16.04.3-6~), kde-l10n-pt (<< 4:16.04.3-6~), kde-l10n-ptbr (<< 4:16.04.3-6~), kde-l10n-ro (<< 4:16.04.3-6~), kde-l10n-ru (<< 4:16.04.3-6~), kde-l10n-sk (<< 4:16.04.3-6~), kde-l10n-sl (<< 4:16.04.3-6~), kde-l10n-sr (<< 4:16.04.3-6~), kde-l10n-sv (<< 4:16.04.3-6~), kde-l10n-tr (<< 4:16.04.3-6~), kde-l10n-ug (<< 4:16.04.3-6~), kde-l10n-uk (<< 4:16.04.3-6~), kde-l10n-wa (<< 4:16.04.3-6~), kde-l10n-zhcn (<< 4:16.04.3-6~), kde-l10n-zhtw (<< 4:16.04.3-6~)
+Replaces: kde-l10n-ar (<< 4:16.04.3-6~), kde-l10n-ast (<< 4:16.04.3-6~), kde-l10n-bg (<< 4:16.04.3-6~), kde-l10n-bs (<< 4:16.04.3-6~), kde-l10n-ca (<< 4:16.04.3-6~), kde-l10n-cavalencia (<< 4:16.04.3-6~), kde-l10n-cs (<< 4:16.04.3-6~), kde-l10n-da (<< 4:16.04.3-6~), kde-l10n-de (<< 4:16.04.3-6~), kde-l10n-el (<< 4:16.04.3-6~), kde-l10n-engb (<< 4:16.04.3-6~), kde-l10n-eo (<< 4:16.04.3-6~), kde-l10n-es (<< 4:16.04.3-6~), kde-l10n-et (<< 4:16.04.3-6~), kde-l10n-eu (<< 4:16.04.3-6~), kde-l10n-fa (<< 4:16.04.3-6~), kde-l10n-fi (<< 4:16.04.3-6~), kde-l10n-fr (<< 4:16.04.3-6~), kde-l10n-ga (<< 4:16.04.3-6~), kde-l10n-gl (<< 4:16.04.3-6~), kde-l10n-he (<< 4:16.04.3-6~), kde-l10n-hi (<< 4:16.04.3-6~), kde-l10n-hr (<< 4:16.04.3-6~), kde-l10n-hu (<< 4:16.04.3-6~), kde-l10n-ia (<< 4:16.04.3-6~), kde-l10n-id (<< 4:16.04.3-6~), kde-l10n-is (<< 4:16.04.3-6~), kde-l10n-it (<< 4:16.04.3-6~), kde-l10n-ja (<< 4:16.04.3-6~), kde-l10n-kk (<< 4:16.04.3-6~), kde-l10n-km (<< 4:16.04.3-6~), kde-l10n-ko (<< 4:16.04.3-6~), kde-l10n-lt (<< 4:16.04.3-6~), kde-l10n-lv (<< 4:16.04.3-6~), kde-l10n-mr (<< 4:16.04.3-6~), kde-l10n-nb (<< 4:16.04.3-6~), kde-l10n-nds (<< 4:16.04.3-6~), kde-l10n-nl (<< 4:16.04.3-6~), kde-l10n-nn (<< 4:16.04.3-6~), kde-l10n-pa (<< 4:16.04.3-6~), kde-l10n-pl (<< 4:16.04.3-6~), kde-l10n-pt (<< 4:16.04.3-6~), kde-l10n-ptbr (<< 4:16.04.3-6~), kde-l10n-ro (<< 4:16.04.3-6~), kde-l10n-ru (<< 4:16.04.3-6~), kde-l10n-sk (<< 4:16.04.3-6~), kde-l10n-sl (<< 4:16.04.3-6~), kde-l10n-sr (<< 4:16.04.3-6~), kde-l10n-sv (<< 4:16.04.3-6~), kde-l10n-tr (<< 4:16.04.3-6~), kde-l10n-ug (<< 4:16.04.3-6~), kde-l10n-uk (<< 4:16.04.3-6~), kde-l10n-wa (<< 4:16.04.3-6~), kde-l10n-zhcn (<< 4:16.04.3-6~), kde-l10n-zhtw (<< 4:16.04.3-6~)
+Homepage: http://edu.kde.org/
+Priority: optional
+Section: science
+Filename: pool/main/k/kalzium/kalzium-data_22.12.3-1_all.deb
+Size: 24143440
+SHA256: e72507a1cb095667849cc27cec7ae3330522a83fd9fba3ba5f7df05abfb07d04
+SHA1: 2579eb6a5c91284e1bb7bccc38a39b6a1890996b
+MD5sum: 65d222562fca4a08aa3046e155fcb783
+Description: data files for Kalzium
+ This package contains architecture-independent data files for Kalzium, the
+ KDE periodic table application.
+ .
+ This package is part of the KDE education module.
 
 Package: kamcli
 Version: 2.0.0-1
@@ -16132,6 +16513,267 @@ Description: Kicad help files (Catalan)
   * GSIK - Getting Started in KiCad
   * KiCad - The main project editor
 
+Package: kicad-doc-de
+Source: kicad
+Version: 6.0.11+dfsg-1
+Architecture: all
+Maintainer: Debian Electronics Team <pkg-electronics-devel@alioth-lists.debian.net>
+Installed-Size: 22687
+Multi-Arch: foreign
+Homepage: https://www.kicad.org
+Priority: optional
+Section: doc
+Filename: pool/main/k/kicad/kicad-doc-de_6.0.11+dfsg-1_all.deb
+Size: 19604184
+SHA256: f29275d90d09d4536c031159e5cde5bcb5b2f49300ff1d28fe2ec7e996648cbc
+SHA1: 1412b9e2eca05be57c62c47f191d48573952c720
+MD5sum: ef2a44d8295b42a0902dea14733b7e85
+Description: Kicad help files (German)
+ This package provides various documentation files for KiCad in German, like
+ the EPUB and the PDF files and also the OnLine HTML documentation for:
+ .
+  * CvPcb - Component association of Footprints
+  * Eeschema - schematic capture editor
+  * GerbView - Gerber file viewer (RS 274 X format)
+  * GSIK - Getting Started in KiCad
+  * GUI Translation - HowTo Help to do GUI translation
+  * IDF Exporter - Export tool for IDFv3 boards and libraries
+  * KiCad - The main project editor
+  * Pcbnew - The printed circuit board software tool
+  * PlEditor - The layout editor for custom title block
+
+Package: kicad-doc-en
+Source: kicad
+Version: 6.0.11+dfsg-1
+Architecture: all
+Maintainer: Debian Electronics Team <pkg-electronics-devel@alioth-lists.debian.net>
+Installed-Size: 17485
+Multi-Arch: foreign
+Homepage: https://www.kicad.org
+Priority: optional
+Section: doc
+Filename: pool/main/k/kicad/kicad-doc-en_6.0.11+dfsg-1_all.deb
+Size: 14972756
+SHA256: 20dbe9acb2e6f38d49bd742d4b71bee2dc3e7dbd8c54a7a45ad05a742e5ae834
+SHA1: 722b0416cccad22f1082891dfcc8177de462d636
+MD5sum: 328e2bb38672e168fe28ef871a55eefa
+Description: Kicad help files (English)
+ This package provides various documentation files for KiCad in English, like
+ the EPUB and the PDF files and also the OnLine HTML documentation for:
+ .
+  * CvPcb - Component association of Footprints
+  * Eeschema - schematic capture editor
+  * GerbView - Gerber file viewer (RS 274 X format)
+  * GSIK - Getting Started in KiCad
+  * GUI Translation - HowTo Help to do GUI translation
+  * IDF Exporter - Export tool for IDFv3 boards and libraries
+  * KiCad - The main project editor
+  * PcbCalculator - A tool for typical calculations while PCB designing
+  * Pcbnew - The printed circuit board software tool
+  * PlEditor - The layout editor for custom title block
+  * Plugins - Introduction to the KiCad plugin system
+
+Package: kicad-doc-fr
+Source: kicad
+Version: 6.0.11+dfsg-1
+Architecture: all
+Maintainer: Debian Electronics Team <pkg-electronics-devel@alioth-lists.debian.net>
+Installed-Size: 17227
+Multi-Arch: foreign
+Homepage: https://www.kicad.org
+Priority: optional
+Section: doc
+Filename: pool/main/k/kicad/kicad-doc-fr_6.0.11+dfsg-1_all.deb
+Size: 15127312
+SHA256: da69ae1d731a5f1786ee460c564d199a3a235a1cf7e61df649ccec0275e20347
+SHA1: 1e4f75d24765885f6018a32e59a13beaecbbf225
+MD5sum: 909af134d4f3d7418354cde7f4f4e3b0
+Description: Kicad help files (French)
+ This package provides various documentation files for KiCad in French, like
+ the EPUB and the PDF files and also the OnLine HTML documentation for:
+ .
+  * CvPcb - Component association of Footprints
+  * Eeschema - schematic capture editor
+  * GSIK - Getting Started in KiCad
+  * KiCad - The main project editor
+  * Pcbnew - The printed circuit board software tool
+  * PlEditor - The layout editor for custom title block
+
+Package: kicad-doc-it
+Source: kicad
+Version: 6.0.11+dfsg-1
+Architecture: all
+Maintainer: Debian Electronics Team <pkg-electronics-devel@alioth-lists.debian.net>
+Installed-Size: 22079
+Multi-Arch: foreign
+Homepage: https://www.kicad.org
+Priority: optional
+Section: doc
+Filename: pool/main/k/kicad/kicad-doc-it_6.0.11+dfsg-1_all.deb
+Size: 19508460
+SHA256: 8d902d2c82220044d1b510ccf7a408372b15e00b4bd6e376d77221680253c01b
+SHA1: dffe6b31f6cb5d05fdef7b5f1e66b7197b48f681
+MD5sum: a7e0548035778b3040938baaa98d7860
+Description: Kicad help files (Italian)
+ This package provides various documentation files for KiCad in Italian, like
+ the EPUB and the PDF files and also the OnLine HTML documentation for:
+ .
+  * CvPcb - Component association of Footprints
+  * Eeschema - schematic capture editor
+  * GerbView - Gerber file viewer (RS 274 X format)
+  * GSIK - Getting Started in KiCad
+  * IDF Exporter - Export tool for IDFv3 boards and libraries
+  * KiCad - The main project editor
+  * PcbCalculator - A tool for typical calculations while PCB designing
+  * Pcbnew - The printed circuit board software tool
+  * PlEditor - The layout editor for custom title block
+
+Package: kicad-doc-ja
+Source: kicad
+Version: 6.0.11+dfsg-1
+Architecture: all
+Maintainer: Debian Electronics Team <pkg-electronics-devel@alioth-lists.debian.net>
+Installed-Size: 30654
+Multi-Arch: foreign
+Homepage: https://www.kicad.org
+Priority: optional
+Section: doc
+Filename: pool/main/k/kicad/kicad-doc-ja_6.0.11+dfsg-1_all.deb
+Size: 23883284
+SHA256: 65fd19996d8d22bb443c0f9b3514466a528337711be20bfe147a64d1a9d94d8c
+SHA1: 80bd9e277aa64a852eaca2b11f4e96cd1c5f3991
+MD5sum: 678a67993ec1ff0eb7536331f5e18009
+Description: Kicad help files (Japanese)
+ This package provides various documentation files for KiCad in Japanese, like
+ the EPUB and the PDF files and also the OnLine HTML documentation for:
+ .
+  * CvPcb - Component association of Footprints
+  * Eeschema - schematic capture editor
+  * GerbView - Gerber file viewer (RS 274 X format)
+  * GSIK - Getting Started in KiCad
+  * GUI Translation - HowTo Help to do GUI translation
+  * IDF Exporter - Export tool for IDFv3 boards and libraries
+  * KiCad - The main project editor
+  * Pcbnew - The printed circuit board software tool
+  * PlEditor - The layout editor for custom title block
+  * Plugins - Introduction to the KiCad plugin system
+
+Package: kicad-doc-pl
+Source: kicad
+Version: 6.0.11+dfsg-1
+Architecture: all
+Maintainer: Debian Electronics Team <pkg-electronics-devel@alioth-lists.debian.net>
+Installed-Size: 21891
+Multi-Arch: foreign
+Homepage: https://www.kicad.org
+Priority: optional
+Section: doc
+Filename: pool/main/k/kicad/kicad-doc-pl_6.0.11+dfsg-1_all.deb
+Size: 18711236
+SHA256: 87c2a4cc8006d52c3c2b98b47d12ddef5b6eed6accd2a1fcfd679fd451f7c987
+SHA1: acbc426df1a0ed6206bfdb7b2a5d5d901275ef78
+MD5sum: c2fb881434762e88997d5d948054e039
+Description: Kicad help files (Polish)
+ This package provides various documentation files for KiCad in Polish, like
+ the EPUB and the PDF files and also the OnLine HTML documentation for:
+ .
+  * CvPcb - Component association of Footprints
+  * Eeschema - schematic capture editor
+  * GerbView - Gerber file viewer (RS 274 X format)
+  * GSIK - Getting Started in KiCad
+  * IDF Exporter - Export tool for IDFv3 boards and libraries
+  * KiCad - The main project editor
+  * Pcbnew - The printed circuit board software tool
+  * PlEditor - The layout editor for custom title block
+
+Package: kicad-doc-ru
+Source: kicad
+Version: 6.0.11+dfsg-1
+Architecture: all
+Maintainer: Debian Electronics Team <pkg-electronics-devel@alioth-lists.debian.net>
+Installed-Size: 25681
+Multi-Arch: foreign
+Homepage: https://www.kicad.org
+Priority: optional
+Section: doc
+Filename: pool/main/k/kicad/kicad-doc-ru_6.0.11+dfsg-1_all.deb
+Size: 22840352
+SHA256: bea783318a41d3154c552a3fb10ae2a30f10337166e76116ea9eb8169cd6ad26
+SHA1: 279254e2668bec530edfbaa5151060349231b62e
+MD5sum: 5dd08d0122da117bc50f678e0e76a23e
+Description: Kicad help files (Russian)
+ This package provides various documentation files for KiCad in Russian, like
+ the EPUB and the PDF files and also the OnLine HTML documentation for:
+ .
+  * CvPcb - Component association of Footprints
+  * Eeschema - schematic capture editor
+  * GerbView - Gerber file viewer (RS 274 X format)
+  * GSIK - Getting Started in KiCad
+  * GUI Translation - HowTo Help to do GUI translation
+  * IDF Exporter - Export tool for IDFv3 boards and libraries
+  * KiCad - The main project editor
+  * PcbCalculator - A tool for typical calculations while PCB designing
+  * Pcbnew - The printed circuit board software tool
+  * PlEditor - The layout editor for custom title block
+  * Plugins - Introduction to the KiCad plugin system
+
+Package: kicad-doc-zh
+Source: kicad
+Version: 6.0.11+dfsg-1
+Architecture: all
+Maintainer: Debian Electronics Team <pkg-electronics-devel@alioth-lists.debian.net>
+Installed-Size: 22024
+Multi-Arch: foreign
+Homepage: https://www.kicad.org
+Priority: optional
+Section: doc
+Filename: pool/main/k/kicad/kicad-doc-zh_6.0.11+dfsg-1_all.deb
+Size: 19347552
+SHA256: c904386f9152d1acb79aec9a85bdaec1e9901ade73a296b44b5e84763eedf245
+SHA1: eadf904c8c36dc857a1cc5b4753b9d68e9404a1f
+MD5sum: 694ad6cb4aa41dc5ec2b2781a4b282b8
+Description: Kicad help files (Chinese)
+ This package provides various documentation files for KiCad in German, like
+ the EPUB and the PDF files and also the OnLine HTML documentation for:
+ .
+  * CvPcb - Component association of Footprints
+  * Eeschema - schematic capture editor
+  * GerbView - Gerber file viewer (RS 274 X format)
+  * GSIK - Getting Started in KiCad
+  * GUI Translation - HowTo Help to do GUI translation
+  * IDF Exporter - Export tool for IDFv3 boards and libraries
+  * KiCad - The main project editor
+  * PcbCalculator - A tool for typical calculations while PCB designing
+  * Pcbnew - The printed circuit board software tool
+  * PlEditor - The layout editor for custom title block
+  * Plugins - Introduction to the KiCad plugin system
+
+Package: kicad-footprints
+Version: 6.0.11-1
+Architecture: all
+Maintainer: Debian Electronics Team <pkg-electronics-devel@alioth-lists.debian.net>
+Installed-Size: 141651
+Recommends: kicad (>= 6.0.0~)
+Breaks: kicad (<< 6.0.0~)
+Replaces: kicad (<< 6.0.0~)
+Multi-Arch: foreign
+Homepage: https://kicad.github.io/footprints
+Priority: optional
+Section: electronics
+Filename: pool/main/k/kicad-footprints/kicad-footprints_6.0.11-1_all.deb
+Size: 23184948
+SHA256: 06c022eae7d40181238f86dc4d2d4d257364880ab89b9e41f553b690e5c502c1
+SHA1: 7209eacf7e0d93065df30f7fb2183dd627ff507c
+MD5sum: 926a9f4dd39e9fd365e7197e1245c494
+Description: Footprint symbols for KiCad's Pcbnew
+ Pcbnew is a powerful printed circuit board software and part of the
+ KiCad suite.
+ Pcbnew manages libraries of footprints for components or other abstract
+ elements. Each footprint is a drawing of the physical component including its
+ land pattern (e.g. the layout of pads on the circuit board).
+ .
+ This package is providing footprints for Pcbnew usable with KiCad >= 5.99.0.
+
 Package: kicad-libraries
 Source: kicad
 Version: 6.0.11+dfsg-1
@@ -16370,6 +17012,32 @@ Description: detection of DNA modifications
  .
  This package is part of the SMRTAnalysis suite.
 
+Package: kineticstools-data
+Source: kineticstools
+Version: 0.6.1+git20220223.1326a4d+dfsg-2
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 21422
+Multi-Arch: foreign
+Homepage: https://github.com/PacificBiosciences/kineticsTools
+Priority: optional
+Section: science
+Filename: pool/main/k/kineticstools/kineticstools-data_0.6.1+git20220223.1326a4d+dfsg-2_all.deb
+Size: 21693392
+SHA256: 24f47d2a6eda6ce678101e1f740173430f7e5d89c4384f862f795f08b34ee231
+SHA1: 3427c408fbe30787a88c86ddb3c1db7341edb40a
+MD5sum: d2ef3f4b0743d7931b972f13427c0545
+Description: detection of DNA modifications -- data files
+ Tools for detecting DNA modifications from single molecule, real-time (SMRT®)
+ sequencing data. This tool implements the P_ModificationDetection module in
+ SMRT® Portal, used by the RS_Modification_Detection and
+ RS_Modifications_and_Motif_Detection protocol. Researchers interested in
+ understanding or extending the modification detection algorithms can use these
+ tools as a starting point.
+ .
+ Kineticstools is part of the SMRTAnalysis suite.
+ This package contains the package data files.
+
 Package: king
 Version: 2.24+dfsg2-1
 Architecture: all
@@ -16563,6 +17231,26 @@ Description: simple easy-to-set-up Git web viewer
   * Git Smart HTTP support
  .
  This package contains the command-line server.
+
+Package: klettres-data
+Source: klettres
+Version: 4:22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 49918
+Homepage: https://apps.kde.org/en/klettres
+Priority: optional
+Section: kde
+Filename: pool/main/k/klettres/klettres-data_22.12.3-1_all.deb
+Size: 39529084
+SHA256: 1186d257a19e84230856baea0b0b1ded8be9195080fcdb2588970b5cd937f5a8
+SHA1: 353c104241e0634917ab2e90d36404a974e8299e
+MD5sum: 6f1d25d678789709fcaec7b7bda94922
+Description: data files for KLettres foreign alphabet tutor
+ This package contains architecture-independent data files for KLettres,
+ the foreign alphabet tutor for KDE.
+ .
+ This package is part of the KDE education module.
 
 Package: kmer
 Version: 0~20150903+r2013-8
@@ -16768,6 +17456,46 @@ Description: Open Source Home Theatre (architecture-independent addon developmen
  This package contains independent headers for building addons without the need
  to keep a whole Kodi source tree.
 
+Package: kodi-data
+Source: kodi
+Version: 2:20.1+dfsg-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 70735
+Depends: mesa-utils, x11-utils, libjs-jquery, libjs-iscroll
+Recommends: fonts-noto-hinted, fonts-noto-mono, fonts-roboto-hinted, fonts-roboto-unhinted
+Breaks: xbmc (<< 2:13.2+dfsg1-5~)
+Replaces: xbmc (<< 2:13.2+dfsg1-5~)
+Multi-Arch: foreign
+Homepage: https://kodi.tv/
+Priority: optional
+Section: video
+Filename: pool/main/k/kodi/kodi-data_20.1+dfsg-1_all.deb
+Size: 20472204
+SHA256: acecf3740d507edc4e9c943daf6155e24f82be83daf3fe423c54425ae5ff6a76
+SHA1: ef37a2e7b172e079d7fed6ed4c7256e16f8b5ee6
+MD5sum: 89204e79f730bff955eda8a0fadb79dd
+Description: Open Source Home Theatre (arch-independent data package)
+ Kodi, formerly known as XBMC is an award winning free and
+ open source software media-player and entertainment hub for all your digital
+ media. Kodi is available for Linux, Mac OS X (Leopard, Tiger and Apple TV)
+ and Microsoft Windows, as well as the original Xbox game console. Created in
+ 2003 by a group of like minded programmers, Kodi is a non-profit project run
+ and developed by volunteers located around the world. More than 50 software
+ developers have contributed to Kodi, and 100-plus translators have worked to
+ expand its reach, making it available in more than 30 languages.
+ .
+ While Kodi functions very well as a standard media player application for
+ your computer, it has been designed to be the perfect companion for your
+ HTPC. Supporting an almost endless range of remote controls, and combined
+ with its beautiful interface and powerful skinning engine, Kodi feels very
+ natural to use from the couch and is the ideal solution for your home
+ theater. Once installed, your computer will become a fully functional
+ multimedia jukebox.
+ .
+ This package contains all the architecture independent data needed to have a
+ working Kodi.
+
 Package: kodi-eventclients-common
 Source: kodi
 Version: 2:20.1+dfsg-1
@@ -16881,6 +17609,42 @@ Description: Open Source Home Theatre (official addons repository feed)
  This package enables download of addons via the official Kodi
  repository feed.
 
+Package: kodi-visualization-shadertoy-data
+Source: kodi-visualization-shadertoy
+Version: 20.3.0+ds1-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 12957
+Replaces: kodi-visualization-shadertoy (<< 1.1.6)
+Multi-Arch: foreign
+Homepage: https://kodi.tv
+Priority: optional
+Section: libs
+Filename: pool/main/k/kodi-visualization-shadertoy/kodi-visualization-shadertoy-data_20.3.0+ds1-1_all.deb
+Size: 12201064
+SHA256: bd0f99ed26727f193095d0570ed5d0ecdc7a8e218ad0418f204f5ac441045f9f
+SHA1: cf02820fd1200aba6f8055356370ddf05901bd13
+MD5sum: e45a5864e31cef544444f78d11c7e667
+Description: Shadertoy audio visualization for Kodi (common data)
+ Kodi, formerly known as XBMC is an award winning free and
+ open source software media-player and entertainment hub for all your digital
+ media. Kodi is available for Linux, Mac OS X (Leopard, Tiger and Apple TV)
+ and Microsoft Windows, as well as the original Xbox game console. Created in
+ 2003 by a group of like minded programmers, Kodi is a non-profit project run
+ and developed by volunteers located around the world. More than 50 software
+ developers have contributed to Kodi, and 100-plus translators have worked to
+ expand its reach, making it available in more than 30 languages.
+ .
+ While Kodi functions very well as a standard media player application for
+ your computer, it has been designed to be the perfect companion for your
+ HTPC. Supporting an almost endless range of remote controls, and combined
+ with its beautiful interface and powerful skinning engine, Kodi feels very
+ natural to use from the couch and is the ideal solution for your home
+ theater. Once installed, your computer will become a fully functional
+ multimedia jukebox.
+ .
+ This package contains data files for Shadertoy visualization.
+
 Package: konfont
 Version: 0.1-8.2
 Architecture: all
@@ -16961,6 +17725,26 @@ Description: Filters used by konwert for charset conversion
  .
  They are also probably useless without konwert itself.
 
+Package: kotlin
+Version: 1.3.31+ds1-1
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 287218
+Depends: ant, libatinject-jsr330-api-java, libgeronimo-annotation-1.3-spec-java, libjansi-java, libjetbrains-annotations-java, libjline3-java, libmaven-compiler-plugin-java, libmaven-plugin-tools-java, libmaven3-core-java, libtrove-intellij-java, libvavr0-java
+Homepage: https://kotlinlang.org
+Priority: optional
+Section: java
+Filename: pool/main/k/kotlin/kotlin_1.3.31+ds1-1_all.deb
+Size: 48656360
+SHA256: 3863b9560ea169150476a6059b2e374ec432eb9467e50761b0d452f75b33ee1c
+SHA1: acb7957b70ec7de03a1ef3af6cd0b18a50b5443a
+MD5sum: fa1a73b5f77946f04fb906494db4e8e1
+Description: cross-platform, general-purpose programming language
+ Kotlin is a cross-platform, statically typed, general-purpose programming
+ language with type inference. Kotlin is designed to interoperate fully with
+ Java, and the JVM version of its standard library  depends on the Java Class
+ Library, but type inference allows its syntax to be more concise.
+
 Package: kpcli
 Version: 3.8.1-1.1
 Architecture: all
@@ -17001,6 +17785,26 @@ Description: Library to assist with accessing public transport (data files)
  The data files for a public transport API
  .
  This package contains the data files.
+
+Package: krank
+Version: 0.7+dfsg2-4
+Architecture: all
+Maintainer: Dmitry E. Oboukhov <unera@debian.org>
+Installed-Size: 62848
+Depends: python3-pygame, python3-yaml, fonts-dejavu, python3:any
+Homepage: http://krank.sourceforge.net/
+Priority: optional
+Section: games
+Filename: pool/main/k/krank/krank_0.7+dfsg2-4_all.deb
+Size: 58065456
+SHA256: 9a3d16fe30cef98d18a4ed9049f879339d8840f8cc729136ce2e0c7dbee33042
+SHA1: b05dd26a5035557278c8f5e94ffc9b543ca954c1
+MD5sum: 12aabae3273b31de7ceff37466f03740
+Description: game of dexterity where you match stones together
+ krank is a game of dexterity, being somewhere between Breakout and billiard,
+ where the aim of each level is to shove floating stones towards compatible
+ static stones. You control a short chain of stones with your mouse to achieve
+ that.
 
 Package: krb5-config
 Source: kerberos-configs
@@ -17077,6 +17881,25 @@ Description: internationalization support for MIT Kerberos
  This is the MIT reference implementation of Kerberos V5.
  .
  This package contains internationalized messages for MIT Kerberos.
+
+Package: krita-data
+Source: krita
+Version: 1:5.1.5+dfsg-2
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 70812
+Homepage: https://krita.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/k/krita/krita-data_5.1.5+dfsg-2_all.deb
+Size: 53716264
+SHA256: 0ace581a79cd2f75ee70fe0f68d9d9ad7807632dae42955db47a757dd280ecbf
+SHA1: 85d80374b4ed1ec0097c3d932857dbc1caf3f5f3
+MD5sum: cbd6963077814fd6747e04c673063241
+Description: data files for Krita painting program
+ This package contains architecture-independent data files for Krita.
+ .
+ See the krita package for further information.
 
 Package: krita-l10n
 Source: krita
@@ -17158,6 +17981,26 @@ Description: set of tutorials for kst
  .
  This package contains documentation files for kst.
 
+Package: kstars-data
+Source: kstars
+Version: 5:3.6.2-2
+Architecture: all
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 125889
+Depends: qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick2
+Homepage: https://edu.kde.org/kstars/
+Priority: optional
+Section: science
+Filename: pool/main/k/kstars/kstars-data_3.6.2-2_all.deb
+Size: 78750244
+SHA256: f48e4a101ddab20f1cf35879c821f9fa2ca1b459c5ea78eef99555fe22cf35aa
+SHA1: 1218d34a19694078ffb264beb51ad62bf543affb
+MD5sum: 8976c0cbd6c9d32b5b0c45a137174577
+Description: data files for KStars desktop planetarium
+ This package contains architecture-independent data files for KStars,
+ the graphical desktop planetarium for KDE, including star catalogues and
+ astronomical images.
+
 Package: ktexteditor-data
 Source: ktexteditor
 Version: 5.103.0-1.1
@@ -17227,6 +18070,29 @@ Description: KTorrent data and other architecture independent files
  This package contains architecture independent data files for KTorrent,
  a BitTorrent peer-to-peer network client. Unless you have ktorrent package
  installed, you probably won't find this package useful.
+
+Package: ktuberling-data
+Source: ktuberling
+Version: 4:22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 62886
+Breaks: kde-l10n-ar (<< 4:16.04.3-4~), kde-l10n-ast (<< 4:16.04.3-4~), kde-l10n-bg (<< 4:16.04.3-4~), kde-l10n-bs (<< 4:16.04.3-4~), kde-l10n-ca (<< 4:16.04.3-4~), kde-l10n-cavalencia (<< 4:16.04.3-4~), kde-l10n-cs (<< 4:16.04.3-4~), kde-l10n-da (<< 4:16.04.3-4~), kde-l10n-de (<< 4:16.04.3-4~), kde-l10n-el (<< 4:16.04.3-4~), kde-l10n-engb (<< 4:16.04.3-4~), kde-l10n-eo (<< 4:16.04.3-4~), kde-l10n-es (<< 4:16.04.3-4~), kde-l10n-et (<< 4:16.04.3-4~), kde-l10n-eu (<< 4:16.04.3-4~), kde-l10n-fa (<< 4:16.04.3-4~), kde-l10n-fi (<< 4:16.04.3-4~), kde-l10n-fr (<< 4:16.04.3-4~), kde-l10n-ga (<< 4:16.04.3-4~), kde-l10n-gl (<< 4:16.04.3-4~), kde-l10n-he (<< 4:16.04.3-4~), kde-l10n-hi (<< 4:16.04.3-4~), kde-l10n-hr (<< 4:16.04.3-4~), kde-l10n-hu (<< 4:16.04.3-4~), kde-l10n-ia (<< 4:16.04.3-4~), kde-l10n-id (<< 4:16.04.3-4~), kde-l10n-is (<< 4:16.04.3-4~), kde-l10n-it (<< 4:16.04.3-4~), kde-l10n-ja (<< 4:16.04.3-4~), kde-l10n-kk (<< 4:16.04.3-4~), kde-l10n-km (<< 4:16.04.3-4~), kde-l10n-ko (<< 4:16.04.3-4~), kde-l10n-lt (<< 4:16.04.3-4~), kde-l10n-lv (<< 4:16.04.3-4~), kde-l10n-mr (<< 4:16.04.3-4~), kde-l10n-nb (<< 4:16.04.3-4~), kde-l10n-nds (<< 4:16.04.3-4~), kde-l10n-nl (<< 4:16.04.3-4~), kde-l10n-nn (<< 4:16.04.3-4~), kde-l10n-pa (<< 4:16.04.3-4~), kde-l10n-pl (<< 4:16.04.3-4~), kde-l10n-pt (<< 4:16.04.3-4~), kde-l10n-ptbr (<< 4:16.04.3-4~), kde-l10n-ro (<< 4:16.04.3-4~), kde-l10n-ru (<< 4:16.04.3-4~), kde-l10n-sk (<< 4:16.04.3-4~), kde-l10n-sl (<< 4:16.04.3-4~), kde-l10n-sr (<< 4:16.04.3-4~), kde-l10n-sv (<< 4:16.04.3-4~), kde-l10n-tr (<< 4:16.04.3-4~), kde-l10n-ug (<< 4:16.04.3-4~), kde-l10n-uk (<< 4:16.04.3-4~), kde-l10n-wa (<< 4:16.04.3-4~), kde-l10n-zhcn (<< 4:16.04.3-4~), kde-l10n-zhtw (<< 4:16.04.3-4~), ktuberling (<< 4:20.08.3~)
+Replaces: kde-l10n-ar (<< 4:16.04.3-4~), kde-l10n-ast (<< 4:16.04.3-4~), kde-l10n-bg (<< 4:16.04.3-4~), kde-l10n-bs (<< 4:16.04.3-4~), kde-l10n-ca (<< 4:16.04.3-4~), kde-l10n-cavalencia (<< 4:16.04.3-4~), kde-l10n-cs (<< 4:16.04.3-4~), kde-l10n-da (<< 4:16.04.3-4~), kde-l10n-de (<< 4:16.04.3-4~), kde-l10n-el (<< 4:16.04.3-4~), kde-l10n-engb (<< 4:16.04.3-4~), kde-l10n-eo (<< 4:16.04.3-4~), kde-l10n-es (<< 4:16.04.3-4~), kde-l10n-et (<< 4:16.04.3-4~), kde-l10n-eu (<< 4:16.04.3-4~), kde-l10n-fa (<< 4:16.04.3-4~), kde-l10n-fi (<< 4:16.04.3-4~), kde-l10n-fr (<< 4:16.04.3-4~), kde-l10n-ga (<< 4:16.04.3-4~), kde-l10n-gl (<< 4:16.04.3-4~), kde-l10n-he (<< 4:16.04.3-4~), kde-l10n-hi (<< 4:16.04.3-4~), kde-l10n-hr (<< 4:16.04.3-4~), kde-l10n-hu (<< 4:16.04.3-4~), kde-l10n-ia (<< 4:16.04.3-4~), kde-l10n-id (<< 4:16.04.3-4~), kde-l10n-is (<< 4:16.04.3-4~), kde-l10n-it (<< 4:16.04.3-4~), kde-l10n-ja (<< 4:16.04.3-4~), kde-l10n-kk (<< 4:16.04.3-4~), kde-l10n-km (<< 4:16.04.3-4~), kde-l10n-ko (<< 4:16.04.3-4~), kde-l10n-lt (<< 4:16.04.3-4~), kde-l10n-lv (<< 4:16.04.3-4~), kde-l10n-mr (<< 4:16.04.3-4~), kde-l10n-nb (<< 4:16.04.3-4~), kde-l10n-nds (<< 4:16.04.3-4~), kde-l10n-nl (<< 4:16.04.3-4~), kde-l10n-nn (<< 4:16.04.3-4~), kde-l10n-pa (<< 4:16.04.3-4~), kde-l10n-pl (<< 4:16.04.3-4~), kde-l10n-pt (<< 4:16.04.3-4~), kde-l10n-ptbr (<< 4:16.04.3-4~), kde-l10n-ro (<< 4:16.04.3-4~), kde-l10n-ru (<< 4:16.04.3-4~), kde-l10n-sk (<< 4:16.04.3-4~), kde-l10n-sl (<< 4:16.04.3-4~), kde-l10n-sr (<< 4:16.04.3-4~), kde-l10n-sv (<< 4:16.04.3-4~), kde-l10n-tr (<< 4:16.04.3-4~), kde-l10n-ug (<< 4:16.04.3-4~), kde-l10n-uk (<< 4:16.04.3-4~), kde-l10n-wa (<< 4:16.04.3-4~), kde-l10n-zhcn (<< 4:16.04.3-4~), kde-l10n-zhtw (<< 4:16.04.3-4~), ktuberling (<< 4:20.08.3~)
+Homepage: http://games.kde.org/
+Priority: optional
+Section: games
+Filename: pool/main/k/ktuberling/ktuberling-data_22.12.3-1_all.deb
+Size: 46661752
+SHA256: fba44c875bfa31ea488dadd9263e87a4dcaea0bd47d28817f6c0dc6d2af970ed
+SHA1: e47cdc649c440b16063589c75b760c3a051c2dc0
+MD5sum: ee81d55088f2de67a13d80b9333008dc
+Description: stamp drawing toy - data files
+ KTuberling is a drawing toy for small children with several activites.
+ .
+ This package contains the data files for KTuberling.
+ .
+ This package is part of the KDE games module.
 
 Package: kwayland-data
 Source: kwayland
@@ -47275,6 +48141,30 @@ Description: Java library of utilities to manage files and compute statistics
  classes, hashtables, network-related classes, as well as a set of classes
  allowing for the computation of statistics.
 
+Package: libicu4j-java
+Source: icu4j
+Version: 72.1-1
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 17260
+Multi-Arch: foreign
+Homepage: http://www.icu-project.org
+Priority: optional
+Section: java
+Filename: pool/main/i/icu4j/libicu4j-java_72.1-1_all.deb
+Size: 16253132
+SHA256: e2764535805603f96e244d6efa1985e9bcd257b738e0aec27f62de2bc2d05f2a
+SHA1: 577c27289d5a3281f87cb27d1f3a093d7d22a4aa
+MD5sum: 1a68613b03f8b8e9838244cee1256dfe
+Description: Library for Unicode support and internationalization
+ ICU is a mature, widely used set of C/C++ and Java libraries for
+ Unicode support, software internationalization and globalization
+ (i18n/g11n). It grew out of the JDK 1.1 internationalization APIs, which
+ the ICU team contributed, and the project continues to be developed
+ for the most advanced Unicode/i18n support. ICU is widely portable and
+ gives applications the same results on all platforms and between C/C++
+ and Java software.
+
 Package: libid3-doc
 Source: id3lib3.8.3
 Version: 3.8.3-18
@@ -60455,6 +61345,33 @@ Description: Python3 library to make user friendly text interfaces - Documentati
  friendly rendering of usage messages and querying the terminal for its size.
  .
  This package contains the documentation for humanfriendly
+
+Package: python-imexam-doc
+Source: imexam
+Version: 0.9.1-4
+Architecture: all
+Maintainer: Debian Astronomy Team <debian-astro-maintainers@lists.alioth.debian.org>
+Installed-Size: 42127
+Depends: libjs-sphinxdoc (>= 5.2)
+Multi-Arch: foreign
+Homepage: https://imexam.readthedocs.io
+Priority: optional
+Section: doc
+Filename: pool/main/i/imexam/python-imexam-doc_0.9.1-4_all.deb
+Size: 39063772
+SHA256: 8f3956b9cefe5dafb60d85cf2e61d2d86e167718eeed93b8fdd2551ffdbb5c63
+SHA1: a6f5a70d3fd83c77d62a8b821536de0ef3ca89de
+MD5sum: c5fdb36370751ac92e078673cf091db8
+Description: Simple interactive astronomical image examination and plotting (Doc)
+ Imexam is an affiliated package of AstroPy. It was designed to be a
+ lightweight library which enables users to explore data using common
+ methods which are consistent across viewers. It can be used from a
+ command line interface, through a Jupyter notebook or through a
+ Jupyter console. It can be used with multiple viewers, such as DS9 or
+ Ginga, or without a viewer as a simple library to make plots and grab
+ quick photometry information.
+ .
+ This package contains the API documentation.
 
 Package: python-ipython-doc
 Source: ipython
