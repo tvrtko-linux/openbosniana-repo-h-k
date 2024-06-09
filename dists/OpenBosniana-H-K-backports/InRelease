@@ -6,7 +6,7 @@ Label: OpenBosniana-H-K Repository
 Suite: 2024
 Codename: OpenBosniana-H-K-backports
 Version: 2024
-Date: Sun, 09 Jun 2024 23:28:55 UTC
+Date: Sun, 09 Jun 2024 23:52:32 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  a4516448a6a5386f5e6a29109bd97662d4d837b0e97a0c978f7ed490d7947a9f 203 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZmOrcACgkQ5Vfn9vbt
-T6rvKw//aqV790N3PVIQYxtFxXVrb4+/OxBpN1xEmhTHyFcFRzpLQaEG8IkjOKrd
-DsJMd3NjMbf24k3zK/plS14eo9EN3geyiqcVHMLkrKYs24bJOs08r22OXRTMkII6
-9wCbE7Fvo1xC6kCmVZ8JNal3D9ujvu9BUQ5ftdrw3QcNd3fDek0aIZPj1OORFZcB
-NztGGFzpnrbX7b6BTHVxgQ4tX94FgWVOaH2dmZIjxEK/7jtwZHdQNIW6VyUBOkfH
-7uQXy1W5hJT1jzMlXCEJUywTurbq7zME+RJx25h0n0pw6D7RkiNCPR8s7omAfzcZ
-wAIIfGDj3xPrtRM6+7ad24TbsmN82sNvJcoQ5QMKzDMRQIXxz6hFlgHbT5qBJXci
-uKhjC/IBHV+5hI11PoK9LLs9R3F9UEmCBpBo7Xqmv1LAZDOWTI31ONLkDHr+ftAO
-gKa0ludU/Y7mqST7r+hq93gLcg1qYRICLgY7XswJqLJjL1O+FhLQhIRqzpbD3IZk
-SXGqySwUPvDsmpP/jcnm9f33+YIImEhnB4F/o8G8ZBC54vUnUG/0sEDkKBf3341r
-Fvq0TO9kzpJ4CO5jk2+VHFv6LCrnRrBe5JHhluHZVbBmEVDQbKKSu4Tt8jw5o4m5
-xaXmyGW3iuSYKYcudkattz8kwOD+9zAieFKi8dk/3B2ISwFbr9Q=
-=DrqY
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZmQEAACgkQ5Vfn9vbt
+T6rP+RAAnoiB5WJgfllzhtOlZXVkMoi6vRqotkb/hENeemNJsLma+zCXKG1LpaeT
+YpdT8k0LkvDryNhRCei6knLd24EUXZt2Is4O4v7JaLD/IXsY/hMOo7VShwEhdQ0c
+OkGa1pqEX7AcUPP/szOQRrcmbdBZYTYjPugwgK9+NeaYmlY48BHDiScqJbfHbdqm
+9u4KtBZTDvUNnHn0gV/LoMR252jzKOUtWd/YnWKzlBl2gxOGjW7nrh76g0E8eoto
+iGKt45+d5SgidOzuVyjzC5fPNwa4py9uelCSkP6HedUm96k2Eh0xmFG0BexuWLhl
+9inDZ2StPd+LDqKJdlbBkUwiz/0o53aPzqtFTCUJpcW2JziUwfx4Wh1W16RZ7aGc
+0JlNslbcnnqodEJEW6Zio0C1XaebnRwJnxyDxgh1tlj/0MR6Q2cbDNTKWYOXt0r7
+l90A7BcPJCORLpQSWEeG+ly4zNYtnA0zgdhK8enLu5FFX7hBBNy3EAd3XqSQ/lyY
+SNPldLnHlicFPi3kTpAgNTe+kunoIs0YFYcUFZ9Fkkr6vN3aAp+qiHwEnNksYOGG
+oSpxDnnJmrEVOtKd3v7TMO0NmXk0ZgaSsargExjAje9GC4i4ujv6o+e9afvV/q8B
+kq0aBkHHGlYfcgVlw5ZhvfQIHRAcgdAk+N7Damnu9gQQgDLAVOA=
+=6OPD
 -----END PGP SIGNATURE-----

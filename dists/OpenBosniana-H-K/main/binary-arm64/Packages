@@ -1158,6 +1158,28 @@ Description: web based IP(v6) address and network administration tool
  treelike structure to illustrate supernets and subnets. Additional data
  can be linked to each network following user defined templates.
 
+Package: hackrf-doc
+Source: hackrf
+Version: 2022.09.1-3
+Architecture: all
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Installed-Size: 5691
+Depends: fonts-font-awesome, fonts-lato, fonts-roboto-slab, libjs-jquery, libjs-underscore, sphinx
+Homepage: http://greatscottgadgets.com/hackrf/
+Priority: optional
+Section: doc
+Filename: pool/main/h/hackrf/hackrf-doc_2022.09.1-3_all.deb
+Size: 4318164
+SHA256: 3e6701e750771099ff8472b1d77fc523f033d9c54897ba110820a92d38e48dfc
+SHA1: e66c5ed0000560ed73144eb55a77adc36a358919
+MD5sum: dc5557642096bd3b252917605be99432
+Description: Software defined radio peripheral - documentation
+ HackRF is an open source Software Defined Radio that can receive
+ and transmit between 30 MHz and 6 GHz. HackRF has a 20 MHz bandwidth.
+ It is a High Speed USB device powered by the USB bus.
+ .
+ This package contains generated documentation.
+
 Package: hackrf-firmware
 Source: hackrf
 Version: 2022.09.1-3
@@ -2273,6 +2295,53 @@ Description: Hershey vector fonts collection
  This package includes Latin, Greek, Cyrilic, Japanese, and various symbol
  glyph sets encoded as .jhf format Hershey font files.
 
+Package: heudiconv
+Version: 0.11.6-1
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 13207
+Depends: python3-dcmstack, python3-filelock, python3-nibabel, python3-nipype, python3-pydicom, python3:any, dcm2niix, python3, python3-dicom, python3-numpy
+Recommends: python3-pytest, python3-datalad, python3-etelemetry
+Homepage: https://github.com/nipy/heudiconv
+Priority: optional
+Section: science
+Filename: pool/main/h/heudiconv/heudiconv_0.11.6-1_all.deb
+Size: 7609868
+SHA256: e886b10702691e4df8c92c082f9cf90d1661965a3a55c321cb3305235f0575ab
+SHA1: 8f229e513e896e5c0c1ac532e587c845160397a6
+MD5sum: 91fffd28570bf6e053adee467a432b3f
+Description: DICOM converter with support for structure heuristics
+ This is a flexible dicom converter for organizing brain imaging data into
+ structured directory layouts. It allows for flexible directory layouts and
+ naming schemes through customizable heuristics implementations.
+ It only converts the necessary dicoms, not everything in a directory.
+ It tracks the provenance of the conversion from dicom to nifti in w3c
+ prov format.
+
+Package: hex-a-hop-data
+Source: hex-a-hop
+Version: 1.1.0+git20140926-1.1
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 9657
+Breaks: hex-a-hop (<< 1.1.0+git20140926-1~)
+Replaces: hex-a-hop (<< 1.1.0+git20140926-1~)
+Multi-Arch: foreign
+Homepage: http://hexahop.sourceforge.net/
+Priority: optional
+Section: games
+Filename: pool/main/h/hex-a-hop/hex-a-hop-data_1.1.0+git20140926-1.1_all.deb
+Size: 9180332
+SHA256: 6ecefa3bafa06c5a64391396ef81ed2df8264ef1415f66ab97612ab7a2643043
+SHA1: 5e10cd4d3951a85de9b570226269f2fbb11d6ca5
+MD5sum: 20fbd09bb6d663d243677935fdf99e11
+Description: graphics, audio, levels and translations for Hex-a-hop
+ This package contains graphics, audio, levels, docs and l10n for Hex-a-hop.
+ .
+ Graphics included are the background, icons, map layers, tile images,
+ title graphics and movement animations of the heroine. Audio included
+ are the music and sound effects.
+
 Package: hexbox
 Version: 1.5.0-5.1
 Architecture: all
@@ -2313,6 +2382,51 @@ Description: Common files for HexChat
  Debian HexChat packages that are common for all architectures. Hexchat is a
  popular and featureful IRC client with a GTK+ GUI. For more information on
  IRC, see http://irchelp.org/.
+
+Package: hhsuite-data
+Source: hhsuite
+Version: 3.3.0+ds-7
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 12890
+Multi-Arch: foreign
+Homepage: https://toolkit.tuebingen.mpg.de/
+Priority: optional
+Section: science
+Filename: pool/main/h/hhsuite/hhsuite-data_3.3.0+ds-7_all.deb
+Size: 4401488
+SHA256: 799479e9eeb940da627d6e0b3c0b07a8fc862fc6420404c43234992a8267f668
+SHA1: 5108f99c0177336fc9531e6e2d0c280e98ea4991
+MD5sum: 9e7903baa17a876ba33b1b3a44be6858
+Description: sensitive protein sequence searching based on HMM-HMM alignment (data)
+ HH-suite is an open-source software package for sensitive protein sequence
+ searching based on the pairwise alignment of hidden Markov models (HMMs).
+ .
+ This package contains architecture independent scripts and data files.
+
+Package: hibiscus
+Version: 2.10.10+dfsg-1
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 5816
+Depends: jameica, libhbci4j-core-java (>= 3.1.49), libitext5-java, libobantoo-java, libsuper-csv-java, libeclipse-swtchart-java, libpostgresql-jdbc-java, libguava-java, libqrcodegen-java
+Homepage: https://www.willuhn.de/products/hibiscus/
+Priority: optional
+Section: misc
+Filename: pool/main/h/hibiscus/hibiscus_2.10.10+dfsg-1_all.deb
+Size: 5244364
+SHA256: 2318dc1e3162367e850a752c3b39cf47ae5e7e8d3fcee332a5919d2f9a0297d3
+SHA1: e9d64bf980087e3e6d3a44019f5bd3986168e832
+MD5sum: c5e315d2cd5f6c5fce736eb0236ce7f1
+Description: Java online banking client using the HBCI standard
+ A Java based, platform independent (running on Linux, Windows, OS X, OpenBSD,
+ OpenSolaris) homebanking application, that uses the German FinTS/HBCI
+ standard. All data (accounts, transactions, addresses, ..) are stored
+ encrypted into an embedded database (H2) by default or on a MySQL/MariaDB
+ server (if configured).
+ .
+ Hibiscus runs as a plugin within the Jameica framework as either a typical
+ desktop application or headless in server mode.
 
 Package: hibiscus-doc
 Source: hibiscus
@@ -3310,6 +3424,31 @@ Description: HP Linux Printing and Imaging - HPIJS PPD files
  a given printer.  See http://www.openprinting.org/ for the latest
  version of the PPDs (which are not guaranteed to work well).
 
+Package: hplip-data
+Source: hplip
+Version: 3.22.10+dfsg0-2
+Architecture: all
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Installed-Size: 10486
+Depends: python3-distro, xz-utils, python3:any
+Suggests: hplip
+Homepage: https://developers.hp.com/hp-linux-imaging-and-printing
+Priority: optional
+Section: utils
+Filename: pool/main/h/hplip/hplip-data_3.22.10+dfsg0-2_all.deb
+Size: 6681116
+SHA256: 950116fc2be67b9c4e1a715d1ab88373315386c2da9a1cc7081914e791d1c364
+SHA1: 483bb7c4bb77b35942c3edd0fe64fc0847a9d26f
+MD5sum: 18f795b52c30e66193ba7371a0d78e3d
+Description: HP Linux Printing and Imaging - data files
+ The HP Linux Printing and Imaging System provides full support for
+ printing on most HP SFP (single function peripheral) inkjets and many
+ LaserJets, and for scanning, sending faxes and for photo-card access on
+ most HP MFP (multi-function peripheral) printers.
+ .
+ This package contains data files for the HP Linux Printing and Imaging
+ System.
+
 Package: hplip-doc
 Source: hplip
 Version: 3.22.10+dfsg0-2
@@ -3740,6 +3879,28 @@ MD5sum: 31d4547b32e37f89e2810a712f1af948
 Description: Httrack website copier additional documentation
  This package adds supplemental documentation for httrack and webhttrack
  as a browsable html documentation
+
+Package: hugin-data
+Source: hugin
+Version: 2022.0.0+dfsg-2
+Architecture: all
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Installed-Size: 17796
+Depends: python3:any
+Suggests: python-wxgtk4.0
+Homepage: http://hugin.sourceforge.net/
+Priority: optional
+Section: graphics
+Filename: pool/main/h/hugin/hugin-data_2022.0.0+dfsg-2_all.deb
+Size: 7995996
+SHA256: 0289091920be52eec91bf1ae6739a2dfe6c0075fc187daf3a39f765a8eab22e0
+SHA1: 0ae84e62e9bc657fdbffeb4d1092553af8f36b8e
+MD5sum: beb55a1bd10f196083b11aa55638d9b4
+Description: panorama photo stitcher - common data files
+ Hugin is a panorama photo stitching program.
+ .
+ This package includes the data files needed by the hugin and
+ hugin-tools packages.
 
 Package: humanfriendly
 Version: 10.0-3
@@ -4323,6 +4484,30 @@ Description: Wallpaper manager with multi monitor support
  .
  It is based on the GNOME Desktop but officially supports MAT, Budgie and
  Cinnamon.
+
+Package: hydrogen-data
+Source: hydrogen
+Version: 1.2.0~beta1+dfsg-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 15037
+Recommends: hydrogen
+Breaks: hydrogen (<< 0.9.7-5~)
+Replaces: hydrogen (<< 0.9.7-5~)
+Multi-Arch: foreign
+Homepage: http://www.hydrogen-music.org/
+Priority: optional
+Section: sound
+Filename: pool/main/h/hydrogen/hydrogen-data_1.2.0~beta1+dfsg-1_all.deb
+Size: 6752260
+SHA256: d2cc3f281c02efb71f132bd173e95a958d3fede7c5aefcaba6547baf918cff2a
+SHA1: 7d00271ef70524e836891b4c6a6714a21e71ead0
+MD5sum: 38a9b5be8a556140422db230f9cc301d
+Description: advanced drum machine/step sequencer (data)
+ Hydrogen is an advanced drum machine which provides a professional,
+ yet simple and intuitive, pattern-based drum programming interface.
+ .
+ This package contains the architecture-independent data files.
 
 Package: hydrogen-doc
 Source: hydrogen
@@ -5133,6 +5318,32 @@ Description: Cangjie and Quick input methods for IBus
  Traditional Chinese, however, it should work for others as well
  (e.g. to input Simplified Chinese).
 
+Package: ibus-data
+Source: ibus
+Version: 1.5.27-5
+Architecture: all
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 109113
+Depends: dconf-gsettings-backend | gsettings-backend, librsvg2-common
+Suggests: ibus
+Breaks: ibus (<< 1.5.21-1~exp2)
+Replaces: ibus (<< 1.5.21-1~exp2)
+Multi-Arch: foreign
+Homepage: https://github.com/ibus/ibus
+Priority: optional
+Section: utils
+Filename: pool/main/i/ibus/ibus-data_1.5.27-5_all.deb
+Size: 10540772
+SHA256: b393f7b76ec46d701a7bf04cd815b8f78eb97b59c2b77270dd7c1ca6c7088649
+SHA1: 02df3f7e515ab02707da58e5e89393b725b2cfe3
+MD5sum: 4c4175d02ab7086372cdf45ee1e69b7e
+Description: Intelligent Input Bus - data files
+ IBus is an Intelligent Input Bus. It is a new input framework for the Linux
+ OS. It provides full featured and user friendly input method user interface.
+ It also may help developers to develop input method easily.
+ .
+ This package contains data files.
+
 Package: ibus-doc
 Source: ibus
 Version: 1.5.27-5
@@ -5902,6 +6113,27 @@ MD5sum: 9367671adc8f14c18557808af024e306
 Description: ibus-table input method: Wu
  This package provides one input method: Wu.
 
+Package: ibus-table-wubi
+Source: ibus-table-chinese
+Version: 1.8.12-1
+Architecture: all
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 15242
+Depends: ibus-table (>= 1.9.1-1~)
+Homepage: https://github.com/mike-fabian/ibus-table-chinese
+Priority: optional
+Section: utils
+Filename: pool/main/i/ibus-table-chinese/ibus-table-wubi_1.8.12-1_all.deb
+Size: 5061792
+SHA256: 6ad2e0a350a89f9b4066ebec6e533ace8c3fd1c611b6e161442e632acf452e95
+SHA1: 5938f960be3d0552668f02c952573abd2ab8ef29
+MD5sum: 8afd4fb5736a6cafbc582162d20f310a
+Description: ibus-table input method: Wubi
+ This package provide one input method: WuBi.
+ .
+ Wubi is a Chinese input method, check more information at
+ http://en.wikipedia.org/wiki/Wubi_method .
+
 Package: ibus-table-yawerty
 Source: ibus-table-others
 Version: 1.3.15+ds-1
@@ -5944,6 +6176,26 @@ Description: ibus-table input method: YongMa
  .
  YongMa is a Chinese input method, check more information at
  http://yong.uueasy.com/read.php?tid=218 .
+
+Package: ibus-typing-booster
+Version: 2.22.0-1
+Architecture: all
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 14915
+Depends: dconf-gsettings-backend | gsettings-backend, python3:any, ibus, libm17n-0, m17n-db, python3-dbus, python3-enchant, python3-packaging, python3-xdg
+Homepage: https://mike-fabian.github.io/ibus-typing-booster/
+Priority: optional
+Section: utils
+Filename: pool/main/i/ibus-typing-booster/ibus-typing-booster_2.22.0-1_all.deb
+Size: 10640296
+SHA256: f4d00ae1b550f0fda13e13c7faaedc121a1853cb9ea48a835f8e8bef595f0455
+SHA1: a29d679335e1c3f794ccd596b338f81bdef8c210
+MD5sum: da2da4626fe7958048a3651469cdf76d
+Description: Completion input method to speedup typing
+ Ibus-typing-booster is a predictive input method and predicts
+ complete words based on context and partial input. One can then
+ simply select the desired word from a list of suggestions and
+ improve one's typing speed and spelling.
 
 Package: icc-profiles-free
 Version: 2.0.1+dfsg-1.1
@@ -6167,6 +6419,40 @@ Description: host and network monitoring system - common files
  .
  This package provides configuration and some basic helper scripts.
 
+Package: icinga2-doc
+Source: icinga2
+Version: 2.13.6-2
+Architecture: all
+Maintainer: Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>
+Installed-Size: 8973
+Multi-Arch: foreign
+Homepage: https://icinga.com
+Priority: optional
+Section: doc
+Filename: pool/main/i/icinga2/icinga2-doc_2.13.6-2_all.deb
+Size: 8220036
+SHA256: dc41c64fcae1d0610e37ed8c527d5d5e57a4487640b0298537e1dd53135ddff6
+SHA1: ce9e4c569042bd051db3b0937fae7c0a8edc8fd8
+MD5sum: b7d579250e68da9b7d427e7b2e76ab7d
+Description: host and network monitoring system - documentation
+ Icinga 2 is a general-purpose monitoring application to fit the needs of
+ any size of network. Icinga 1.x was a Nagios fork; this new generation
+ has been rewritten from scratch in C++, with multi-threading and cluster
+ support.
+ .
+ Features:
+  * all standard features of Icinga and Nagios;
+  * much faster and more scalable than Icinga 1 and Nagios;
+  * new, more intuitive, template-based configuration format;
+  * monitoring services on ICMP (ping) or TCP ports (HTTP, NNTP, POP3,
+    SMTP, etc.) by executing checks (see monitoring-plugins*);
+  * any small script following the Nagios plugin API can be used as a
+    check plugin;
+  * notifications about alerts for any custom script (with examples);
+  * native support for Livestatus and Graphite.
+ .
+ This package provides the Icinga 2 documentation.
+
 Package: icingacli
 Source: icingaweb2
 Version: 2.11.4-2+deb12u1
@@ -6211,6 +6497,31 @@ Description: Icinga DB Web for Icinga Web 2
  Based on the lessons learnt with the base monitoring module,
  it offers a modern and streamlined design to provide a clear
  and concise overview of your monitoring environment.
+
+Package: icingaweb2
+Version: 2.11.4-2+deb12u1
+Architecture: all
+Maintainer: Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>
+Installed-Size: 12624
+Depends: fonts-dejavu-core, fonts-dejavu-extra, icingaweb2-common (= 2.11.4-2+deb12u1), php-xml
+Recommends: apache2 | httpd, php, php-cli, php-curl, php-dom, php-gd, php-mbstring, php-ldap, php-json, php-intl, php-imagick, icingacli, icingaweb2-module-monitoring, icingaweb2-module-doc, nagios-images
+Homepage: https://icinga.com
+Priority: optional
+Section: admin
+Filename: pool/main/i/icingaweb2/icingaweb2_2.11.4-2+deb12u1_all.deb
+Size: 5518088
+SHA256: 2b9af333ff4267632393ad3ccbf53dd95a894ddea43e478c702ac321358366c9
+SHA1: 9cd5960bc3cc6c4c119a20a6c6c6c0acf7c5006e
+MD5sum: 9841e85860fbedff3d312746bda236c5
+Description: simple and responsive web interface for Icinga
+ Icinga Web 2 is a very modular, fast and simple web interface for your Icinga
+ monitoring environment.
+ .
+ The software will give you a web frontend for your monitoring solution, and
+ can run additional modules, extending monitoring data, or even supplying
+ something new to the webinterface.
+ .
+ This package installs the web interface with all needed dependencies.
 
 Package: icingaweb2-common
 Source: icingaweb2
@@ -6508,6 +6819,29 @@ Description: This Module offers to deploy config files through the Director
  monitoring environment.
  .
  This module ships bleeding edge libraries useful for Icinga Web 2 modules.
+
+Package: icingaweb2-module-map
+Version: 1.1.0-3
+Architecture: all
+Maintainer: David Kunz <david.kunz@dknet.ch>
+Installed-Size: 14804
+Depends: icingaweb2, php
+Enhances: icingaweb2
+Homepage: https://github.com/nbuchwitz/icingaweb2-module-map
+Priority: optional
+Section: admin
+Filename: pool/main/i/icingaweb2-module-map/icingaweb2-module-map_1.1.0-3_all.deb
+Size: 8034284
+SHA256: d0ee602f001c34408f01d86ee9cc78ab84d785014919d5bed9807f804ec6d904
+SHA1: 8358de45b8a295b5f71dd8ef12a3608e48fe2aed
+MD5sum: 5eb79b29d362b2643ac7e4b53df98670
+Description: Displays host objects as markers on openstreetmap
+ Icinga Web 2 is a very modular, fast and simple web interface for your Icinga
+ monitoring environment.
+ .
+ This module displays host objects as markers on openstreetmap using leaflet.js.
+ If you configure multiple hosts with the same coordinates, i.e. servers in a
+ datacenter, a clustered view is rendered.
 
 Package: icingaweb2-module-monitoring
 Source: icingaweb2
@@ -7866,6 +8200,35 @@ Description: image manipulation programs -- infrastructure
  required to run imagemagick.
  .
  This package is independent of channel depth.
+
+Package: imagemagick-6-doc
+Source: imagemagick
+Version: 8:6.9.11.60+dfsg-1.6+deb12u1
+Architecture: all
+Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
+Installed-Size: 55444
+Pre-Depends: dpkg (>= 1.15.7.2)
+Depends: imagemagick-6-common (= 8:6.9.11.60+dfsg-1.6+deb12u1)
+Recommends: www-browser, libjs-jquery, libjs-bootstrap (>= 3.3.5+dfsg-1), libjs-jquery-mousewheel, libjs-jquery-fancybox
+Suggests: imagemagick
+Breaks: imagemagick-doc (<< 8:6.9.2.10+dfsg-1~)
+Replaces: imagemagick (<< 8:6.9.2.10+dfsg-1~), imagemagick-doc (<< 8:6.9.2.10+dfsg-1~)
+Provides: imagemagick-doc
+Multi-Arch: foreign
+Homepage: https://www.imagemagick.org/
+Priority: optional
+Section: doc
+Filename: pool/main/i/imagemagick/imagemagick-6-doc_6.9.11.60+dfsg-1.6+deb12u1_all.deb
+Size: 7888740
+SHA256: 0f12cf8c52302e89b60bc42375f92b6988986c1e67307131fc11ed71112a194c
+SHA1: f77e7ddcbb8679f97a021e2fecf5e98c60750f9a
+MD5sum: 6dca004ac6a503bd1f2cd2a4e0c86d81
+Description: document files of ImageMagick
+ This package contains the document files shipped with ImageMagick, a software
+ suite to create, edit, and compose bitmap images.
+ .
+ Documentations includes html manuals, examples files, and doxygen generated API
+ documentation.
 
 Package: imagemagick-common
 Source: imagemagick
@@ -10719,6 +11082,29 @@ Description: ISO language, territory, currency, script codes and their translati
  More importantly, it also provides their translations to be used by
  other programs.
 
+Package: iso-flags-png-320x240
+Source: iso-flags-svg
+Version: 1.0.2-2
+Architecture: all
+Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
+Installed-Size: 5531
+Provides: iso-flag-png
+Multi-Arch: foreign
+Homepage: https://github.com/linuxmint/flags
+Priority: optional
+Section: misc
+Filename: pool/main/i/iso-flags-svg/iso-flags-png-320x240_1.0.2-2_all.deb
+Size: 5285088
+SHA256: 991cd465a366c38713e5ef1409c279841f64ce1043f21c6f064cb4516787aba0
+SHA1: e70a834092219ef6e6b10b4773760cf7edbcff12
+MD5sum: e56cc41a318496083486fcaa2b2b752f
+Description: ISO country flags in PNG format (320x240)
+ A 4x3 country flag collection in PNG format in the resolution 320x240.
+ Generated from the high quality vector graphics country flag icons (shipped in
+ the iso-flags-svg package).
+ .
+ It contains more than 240 country flag icons.
+
 Package: iso-flags-svg
 Version: 1.0.2-2
 Architecture: all
@@ -11308,6 +11694,29 @@ Description: Smith-Waterman algorithm with Gotoh's improvement
  algorithm with Gotoh's improvement for biological local pairwise sequence
  alignment with the affine gap penalty model.
 
+Package: jalview
+Version: 2.11.2.5+dfsg-3
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 8100
+Depends: default-jre, debconf, libcommons-discovery-java, libjaxws-java, groovy, javahelp2, libandroid-json-org-java, libapache-mime4j-java, libaxis-java, libbiojava6-java, libhtsjdk-java, libhttpclient-java, libhttpcore-java, libhttpmime-java, libintervalstorej-java, libjaba-client-java, libjaxb-api-java, libjaxb-java, libjaxrs-api-java, libjersey1-client-java, libjersey1-core-java, libjetty9-java, libjfreesvg-java, libjmol-java, libjson-simple-java, libjsoup-java, libjswingreader-java, liblog4j1.2-java, liblog4j2-java, libmiglayout-java, libslf4j-java, libvamsas-client-java, varna, debconf (>= 0.5) | debconf-2.0
+Suggests: clustalw, kalign, t-coffee
+Homepage: https://www.jalview.org
+Priority: optional
+Section: science
+Filename: pool/main/j/jalview/jalview_2.11.2.5+dfsg-3_all.deb
+Size: 7771132
+SHA256: 47bf017b59e7f9d101f6d8adac476345a9f1053e87984a45fcfb563d14bc8302
+SHA1: 4ab1575dd7420a3a13eb758c3fe8353014521327
+MD5sum: 04b77bbcdba7e81a89d7ff59d0ef4f37
+Description: multiple alignment editor
+ JalView is a Java DNA, RNA and protein sequence alignment editor that can work
+ with sequence alignments produced by programs implementing alignment
+ algorithms such as clustalw, kalign and t-coffee.
+ .
+ It has lots of features, is actively developed, and will compare
+ advantageously to BioEdit, while being free as in free speech!
+
 Package: jameica
 Version: 2.10.3+dfsg-2
 Architecture: all
@@ -11409,6 +11818,33 @@ Description: runtime compiler for Java expressions - binary
  evaluators or embedded code as with JSP.
  .
  This package contains the janinoc tool.
+
+Package: janus-demos
+Source: janus
+Version: 1.1.2-1
+Architecture: all
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 6515
+Depends: fonts-font-awesome, libjs-blueimp-md5, libjs-bootbox, libjs-bootstrap, libjs-bootswatch, libjs-janus-gateway, libjs-jquery, libjs-jquery-blockui, libjs-spin.js, libjs-toastr, libjs-webrtc-adapter (>= 8)
+Suggests: janus, janus-tools, libjs-bootstrap-slider
+Homepage: https://janus.conf.meetecho.com
+Priority: optional
+Section: comm
+Filename: pool/main/j/janus/janus-demos_1.1.2-1_all.deb
+Size: 4572228
+SHA256: a3fa52062bfac7dbae9164c4fe4838ca0a2a925896a8d9c0d876219690345c19
+SHA1: ec84f8d6e4bb926df02bea294ca8e4e1a5ad67eb
+MD5sum: 953b5d847e5fb5a79d9c5dafb9c9196a
+Description: general purpose WebRTC server/gateway - demos
+ janus is a general purpose WebRTC server/gateway
+ with a minimal footprint.
+ .
+ This package contains a set of demo html applications using Janus.
+ .
+ The demos require online referenced Javascript code.
+ .
+ GStreamer example script in package janus-tools is needed
+ to feed one of the streams in Streaming demo.
 
 Package: janus-doc
 Source: janus
@@ -13260,6 +13696,28 @@ Description: Load testing and performance measurement application (ftp module)
  .
  This package contains the ftp testing module.
 
+Package: jmeter-help
+Source: jakarta-jmeter
+Version: 2.13-5
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 14188
+Suggests: jmeter (= 2.13-5)
+Homepage: http://jmeter.apache.org
+Priority: optional
+Section: doc
+Filename: pool/main/j/jakarta-jmeter/jmeter-help_2.13-5_all.deb
+Size: 11055108
+SHA256: 9110c5570c2093bf7269088c54246f899974aa81fa86b91a9067c01832361383
+SHA1: d84dfb0ffd414ad7b2a89476e36e3a6959c16486
+MD5sum: de9c0a326a2a75b73e894768f133123d
+Description: Load testing and performance measurement application (user manual)
+ Apache JMeter is a 100% pure Java desktop application designed to load test
+ functional behavior and measure performance. It was originally designed for
+ testing Web Applications but has since expanded to other test functions.
+ .
+ This package contains the user manual.
+
 Package: jmeter-http
 Source: jakarta-jmeter
 Version: 2.13-5
@@ -14020,6 +14478,34 @@ Description: Pure Javascript implementation of deflate, unzip, base64_decode
  JSXGraph is a cross-browser library to display interactive geometry in a
   web browser.
 
+Package: jsxgraph
+Version: 1.5.0+dfsg1-3
+Architecture: all
+Maintainer: Georges Khaznadar <georgesk@debian.org>
+Installed-Size: 70495
+Pre-Depends: python3
+Depends: python3:any, libjs-prototype, libjs-jquery, jsxcompressor
+Suggests: jsxgraph-examples
+Homepage: http://jsxgraph.uni-bayreuth.de/cms/index.php
+Priority: optional
+Section: devel
+Filename: pool/main/j/jsxgraph/jsxgraph_1.5.0+dfsg1-3_all.deb
+Size: 10998080
+SHA256: c876b0be8834ecd4cb9a2a38bc7291b9d2323bb408d1be7bee6a49a0c2ae2502
+SHA1: 115cfd0a25683feb56f74e979ef306fdf6f75be9
+MD5sum: d544340917ba0209bda23e148425120b
+Description: Interactive Geometry with JavaScript
+ JSXGraph is a cross-browser library to display interactive geometry in a
+ web browser. It is implemented in JavaScript and uses SVG and VML.
+ At the moment the following browsers are supported: Mozilla Firefox,
+ Opera, Safari, Google Chrome, Microsoft Internet Explorer.
+ .
+ There are still some issues with JSXGraph in the Internet Explorer, so
+ using Firefox, Opera, Safari or Chrome is recommended.
+ .
+ JSXGraph is easy to embed and has a small footprint: only 50 kB if
+ embedded in a web page. No plugins are required!
+
 Package: jtb
 Version: 1.4.12-3
 Architecture: all
@@ -14748,6 +15234,32 @@ Description: Java LDAP Browser
     o Special characters / UTF8 in distinguished names.
   * Extensible architecture with object class based Java plugins
 
+Package: jython
+Version: 2.7.3+repack1-1
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 13645
+Depends: antlr3, libantlr3-runtime-java, libasm-java, libcommons-compress-java, libguava-java, libicu4j-java, libjaxb-api-java, libjffi-java, libjline2-java, libjnr-constants-java, libjnr-ffi-java, libjnr-netdb-java, libjnr-posix-java, libnetty-java, libservlet-api-java, libstringtemplate4-java, default-jre-headless (>= 2:1.8) | java8-runtime-headless
+Recommends: default-jdk | java-compiler
+Suggests: jython-doc, libmariadb-java, libpostgresql-jdbc-java
+Homepage: http://www.jython.org
+Priority: optional
+Section: python
+Filename: pool/main/j/jython/jython_2.7.3+repack1-1_all.deb
+Size: 12026608
+SHA256: 55b8de8d4eab8add997370e7ca4bdcaf1f8f1ef1494a48ea8ec35ea32dc8d1e2
+SHA1: 888aea158a4ebc55273c582d6c6ff4b6514165b5
+MD5sum: c9422d5855fd81aa82e03cc2a624ccc9
+Description: Python seamlessly integrated with Java
+ Jython is an implementation of the high-level, dynamic, object-oriented
+ language Python seamlessly integrated with the Java platform.  The
+ predecessor to Jython, JPython, is certified as 100% Pure Java.
+ .
+ Jython is complementary to Java and allows the two languages to be freely
+ mixed.  It is especially suited for embedded scripting, interactive
+ experimentation and rapid application development, and it can
+ interact with Java packages or with running Java applications.
+
 Package: jython-doc
 Source: jython
 Version: 2.7.3+repack1-1
@@ -14773,6 +15285,29 @@ Description: Jython documentation including API docs
  Python documentation including a Python language reference and tutorial,
  see Python web site : http://docs.python.org/.
 
+Package: k3b-data
+Source: k3b
+Version: 22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 10314
+Multi-Arch: foreign
+Homepage: https://userbase.kde.org/K3b
+Priority: optional
+Section: kde
+Filename: pool/main/k/k3b/k3b-data_22.12.3-1_all.deb
+Size: 4778552
+SHA256: a76e2a3b4122eb9f64986bac2f3806d223f0e851e559eca3c8e8e8a4ffbe6ccb
+SHA1: 15cbf9dcd539aad1da224e7d931f3b7f23564592
+MD5sum: 3ad5616f777aba9b45deb09e7983de5c
+Description: Sophisticated CD/DVD burning application - data files
+ K3b provides a comfortable user interface to perform most CD/DVD burning
+ tasks. While the experienced user can take influence in all steps
+ of the burning process the beginner may find comfort in the automatic settings
+ and the reasonable k3b defaults which allow a quick start.
+ .
+ This package contains the required data files common to all architectures.
+
 Package: k3b-extrathemes
 Source: k3b
 Version: 22.12.3-1
@@ -14795,6 +15330,29 @@ Description: Sophisticated CD/DVD burning application - extra themes
  and the reasonable k3b defaults which allow a quick start.
  .
  This package contains additional themes for K3b.
+
+Package: k3b-i18n
+Source: k3b
+Version: 22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 18480
+Depends: k3b
+Homepage: https://userbase.kde.org/K3b
+Priority: optional
+Section: localization
+Filename: pool/main/k/k3b/k3b-i18n_22.12.3-1_all.deb
+Size: 4373932
+SHA256: 1a3adf8d50eb0c10d7433d212f1e527e0f66a29b4b64cd387ce7963c026e30eb
+SHA1: 9f1c69d19f8579a985724d274cfa44ad65d25870
+MD5sum: 9810cb5e3f631dc8298a2800742c0401
+Description: Sophisticated CD/DVD burning application - localizations files
+ K3b provides a comfortable user interface to perform most CD/DVD burning
+ tasks. While the experienced user can take influence in all steps
+ of the burning process the beginner may find comfort in the automatic settings
+ and the reasonable k3b defaults which allow a quick start.
+ .
+ This package contains translations files.
 
 Package: kaddressbook-data
 Source: kaddressbook
@@ -14836,6 +15394,28 @@ Description: producer and consumer for Apache Kafka (transitional package)
  0.8, think of it as a netcat for Kafka.
  .
  This package is a transitional package. It can be safely removed.
+
+Package: kajongg
+Version: 4:22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 9181
+Depends: kdegames-mahjongg-data-kf5, python3-pyqt5.qtsvg, python3-qtpy, python3-twisted (>= 16.6.0~), python3:any
+Recommends: khelpcenter
+Homepage: https://games.kde.org/
+Priority: optional
+Section: games
+Filename: pool/main/k/kajongg/kajongg_22.12.3-1_all.deb
+Size: 4713320
+SHA256: be0a9cc0f9a97064ffa0ab01133f55e021c7c58f9869857431bf1ca951dadbaf
+SHA1: b640701e1656f91d6afe3ce55f0df72dfed4f7ae
+MD5sum: 4685c3c06c10d11a318a9d3b32cb194a
+Description: classical Mah Jongg game
+ This is the classical Mah Jongg for four players.
+ If you are looking for the Mah Jongg solitaire please use the application
+ kmahjongg.
+ .
+ This package is part of the KDE games module.
 
 Package: kakasi-dic
 Source: kakasi
@@ -15268,6 +15848,52 @@ Description: reference data for kaptive for Klebsiella genome assemblies
  This package contains a reference database.  Its not necessarily used
  to run kaptive since you can use your own database.
 
+Package: kaptive-example
+Source: kaptive
+Version: 2.0.4-1
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 6328
+Enhances: kaptive
+Multi-Arch: foreign
+Homepage: https://github.com/katholt/Kaptive
+Priority: optional
+Section: science
+Filename: pool/main/k/kaptive/kaptive-example_2.0.4-1_all.deb
+Size: 6474316
+SHA256: caa433208eea17d537713726583e8b73eff348ab691fc659939699402e59b842
+SHA1: 991b57db87ad343f07739e368186a988bd87cc57
+MD5sum: dda0922fea5b75aa737d0415df861d0f
+Description: example data for kaptive for Klebsiella genome assemblies
+ Kaptive reports information about K and O types for Klebsiella genome
+ assemblies.
+ .
+ Given a novel genome and a database of known loci (K or O), Kaptive will
+ help a user to decide whether their sample has a known or novel locus.
+ It carries out the following for each input assembly:
+ .
+  * BLAST for all known locus nucleotide sequences (using blastn) to
+    identify the best match ('best' defined as having the highest
+    coverage).
+  * Extract the region(s) of the assembly which correspond to the BLAST
+    hits (i.e. the locus sequence in the assembly) and save it to a
+    FASTA file.
+  * BLAST for all known locus genes (using tblastn) to identify which
+    expected genes (genes in the best matching locus) are present/missing
+    and whether any unexpected genes (genes from other loci) are present.
+  * Output a summary to a table file.
+ .
+ In cases where your input assembly closely matches a known locus,
+ Kaptive should make that obvious. When your assembly has a novel type,
+ that too should be clear. However, Kaptive cannot reliably extract or
+ annotate locus sequences for totally novel types - if it indicates a
+ novel locus is present then extracting and annotating the sequence is up
+ to you! Very poor assemblies can confound the results, so be sure to
+ closely examine any case where the locus sequence in your assembly is
+ broken into multiple pieces.
+ .
+ This package contains some example data.
+
 Package: kas
 Version: 3.1-2
 Architecture: all
@@ -15289,6 +15915,24 @@ Description: Setup tool for bitbake based projects
  and configuration phase
  .
  This package installs the library for Python 3.
+
+Package: kate5-data
+Source: kate
+Version: 4:22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 23522
+Homepage: https://kate-editor.org/
+Priority: optional
+Section: kde
+Filename: pool/main/k/kate/kate5-data_22.12.3-1_all.deb
+Size: 7361020
+SHA256: 6da1d7621fc3539385f35351ba612b748a743458240b0db63bd54738015f473d
+SHA1: aa4c09e08cd9915fbaef4b7cb2876d1c6bee8d72
+MD5sum: f79c074e7a058b5b23d26a16fe414057
+Description: shared data files for Kate text editor
+ This package contains the architecture-independent shared data files needed
+ for Kate editor
 
 Package: kazam
 Version: 1.4.5-6
@@ -15312,6 +15956,28 @@ Description: screencast and screenshot application created with design in mind
  being captured.
  .
  Support for H264 and VP8 codecs is built in.
+
+Package: kball-data
+Source: kball
+Version: 0.0.20041216-11
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 10177
+Homepage: http://kball.sourceforge.net/
+Priority: optional
+Section: games
+Filename: pool/main/k/kball/kball-data_0.0.20041216-11_all.deb
+Size: 6409700
+SHA256: 8f2cd57f06443247cd4839a0843bc166bacce3d1a58a031af6c1b5fede365c70
+SHA1: 0e2e0b134610430636a9372ee334d45a78999507
+MD5sum: 64f4b3e971ed516f6afa9245daa32437
+Description: game of skill and reflexes for all the family - data files
+ A game of skill and reflexes, non violent, suitable for all ages. The idea
+ is to move the ball around the map, without falling, without running out of
+ time, and getting the prizes, in order to reach the exit. The main feature
+ of the game is the built-in map editor, so anybody can make their own maps.
+ .
+ This package includes the data of the game.
 
 Package: kbibtex-data
 Source: kbibtex
@@ -15469,6 +16135,36 @@ Description: KVTML files for KDE-Edu programs
  .
  This package is part of the KDE education module.
 
+Package: kdenlive-data
+Source: kdenlive
+Version: 22.12.3-2+deb12u1
+Architecture: all
+Maintainer: Patrick Matthäi <pmatthaei@debian.org>
+Installed-Size: 58279
+Recommends: kdenlive
+Breaks: kde-l10n-ar (<< 4:16.04.3-4~), kde-l10n-ast (<< 4:16.04.3-4~), kde-l10n-bg (<< 4:16.04.3-4~), kde-l10n-bs (<< 4:16.04.3-4~), kde-l10n-ca (<< 4:16.04.3-4~), kde-l10n-cavalencia (<< 4:16.04.3-4~), kde-l10n-cs (<< 4:16.04.3-4~), kde-l10n-da (<< 4:16.04.3-4~), kde-l10n-de (<< 4:16.04.3-4~), kde-l10n-el (<< 4:16.04.3-4~), kde-l10n-engb (<< 4:16.04.3-4~), kde-l10n-eo (<< 4:16.04.3-4~), kde-l10n-es (<< 4:16.04.3-4~), kde-l10n-et (<< 4:16.04.3-4~), kde-l10n-eu (<< 4:16.04.3-4~), kde-l10n-fa (<< 4:16.04.3-4~), kde-l10n-fi (<< 4:16.04.3-4~), kde-l10n-fr (<< 4:16.04.3-4~), kde-l10n-ga (<< 4:16.04.3-4~), kde-l10n-gl (<< 4:16.04.3-4~), kde-l10n-he (<< 4:16.04.3-4~), kde-l10n-hi (<< 4:16.04.3-4~), kde-l10n-hr (<< 4:16.04.3-4~), kde-l10n-hu (<< 4:16.04.3-4~), kde-l10n-ia (<< 4:16.04.3-4~), kde-l10n-id (<< 4:16.04.3-4~), kde-l10n-is (<< 4:16.04.3-4~), kde-l10n-it (<< 4:16.04.3-4~), kde-l10n-ja (<< 4:16.04.3-4~), kde-l10n-kk (<< 4:16.04.3-4~), kde-l10n-km (<< 4:16.04.3-4~), kde-l10n-ko (<< 4:16.04.3-4~), kde-l10n-lt (<< 4:16.04.3-4~), kde-l10n-lv (<< 4:16.04.3-4~), kde-l10n-mr (<< 4:16.04.3-4~), kde-l10n-nb (<< 4:16.04.3-4~), kde-l10n-nds (<< 4:16.04.3-4~), kde-l10n-nl (<< 4:16.04.3-4~), kde-l10n-nn (<< 4:16.04.3-4~), kde-l10n-pa (<< 4:16.04.3-4~), kde-l10n-pl (<< 4:16.04.3-4~), kde-l10n-pt (<< 4:16.04.3-4~), kde-l10n-ptbr (<< 4:16.04.3-4~), kde-l10n-ro (<< 4:16.04.3-4~), kde-l10n-ru (<< 4:16.04.3-4~), kde-l10n-sk (<< 4:16.04.3-4~), kde-l10n-sl (<< 4:16.04.3-4~), kde-l10n-sr (<< 4:16.04.3-4~), kde-l10n-sv (<< 4:16.04.3-4~), kde-l10n-tr (<< 4:16.04.3-4~), kde-l10n-ug (<< 4:16.04.3-4~), kde-l10n-uk (<< 4:16.04.3-4~), kde-l10n-wa (<< 4:16.04.3-4~), kde-l10n-zhcn (<< 4:16.04.3-4~), kde-l10n-zhtw (<< 4:16.04.3-4~)
+Replaces: kde-l10n-ar (<< 4:16.04.3-4~), kde-l10n-ast (<< 4:16.04.3-4~), kde-l10n-bg (<< 4:16.04.3-4~), kde-l10n-bs (<< 4:16.04.3-4~), kde-l10n-ca (<< 4:16.04.3-4~), kde-l10n-cavalencia (<< 4:16.04.3-4~), kde-l10n-cs (<< 4:16.04.3-4~), kde-l10n-da (<< 4:16.04.3-4~), kde-l10n-de (<< 4:16.04.3-4~), kde-l10n-el (<< 4:16.04.3-4~), kde-l10n-engb (<< 4:16.04.3-4~), kde-l10n-eo (<< 4:16.04.3-4~), kde-l10n-es (<< 4:16.04.3-4~), kde-l10n-et (<< 4:16.04.3-4~), kde-l10n-eu (<< 4:16.04.3-4~), kde-l10n-fa (<< 4:16.04.3-4~), kde-l10n-fi (<< 4:16.04.3-4~), kde-l10n-fr (<< 4:16.04.3-4~), kde-l10n-ga (<< 4:16.04.3-4~), kde-l10n-gl (<< 4:16.04.3-4~), kde-l10n-he (<< 4:16.04.3-4~), kde-l10n-hi (<< 4:16.04.3-4~), kde-l10n-hr (<< 4:16.04.3-4~), kde-l10n-hu (<< 4:16.04.3-4~), kde-l10n-ia (<< 4:16.04.3-4~), kde-l10n-id (<< 4:16.04.3-4~), kde-l10n-is (<< 4:16.04.3-4~), kde-l10n-it (<< 4:16.04.3-4~), kde-l10n-ja (<< 4:16.04.3-4~), kde-l10n-kk (<< 4:16.04.3-4~), kde-l10n-km (<< 4:16.04.3-4~), kde-l10n-ko (<< 4:16.04.3-4~), kde-l10n-lt (<< 4:16.04.3-4~), kde-l10n-lv (<< 4:16.04.3-4~), kde-l10n-mr (<< 4:16.04.3-4~), kde-l10n-nb (<< 4:16.04.3-4~), kde-l10n-nds (<< 4:16.04.3-4~), kde-l10n-nl (<< 4:16.04.3-4~), kde-l10n-nn (<< 4:16.04.3-4~), kde-l10n-pa (<< 4:16.04.3-4~), kde-l10n-pl (<< 4:16.04.3-4~), kde-l10n-pt (<< 4:16.04.3-4~), kde-l10n-ptbr (<< 4:16.04.3-4~), kde-l10n-ro (<< 4:16.04.3-4~), kde-l10n-ru (<< 4:16.04.3-4~), kde-l10n-sk (<< 4:16.04.3-4~), kde-l10n-sl (<< 4:16.04.3-4~), kde-l10n-sr (<< 4:16.04.3-4~), kde-l10n-sv (<< 4:16.04.3-4~), kde-l10n-tr (<< 4:16.04.3-4~), kde-l10n-ug (<< 4:16.04.3-4~), kde-l10n-uk (<< 4:16.04.3-4~), kde-l10n-wa (<< 4:16.04.3-4~), kde-l10n-zhcn (<< 4:16.04.3-4~), kde-l10n-zhtw (<< 4:16.04.3-4~)
+Homepage: https://kdenlive.org/
+Priority: optional
+Section: video
+Filename: pool/main/k/kdenlive/kdenlive-data_22.12.3-2+deb12u1_all.deb
+Size: 10245536
+SHA256: 604b767e961af83e606598c76ae76ae002861332c8598a7ca052f930b6998fcc
+SHA1: b60c7af917d2766e36e359731e7480239a8fbe6f
+MD5sum: 1aab417700901129edc991dd89f4bb3d
+Description: non-linear video editor (data files)
+ Kdenlive is a non-linear video editing suite, which supports DV, HDV and many
+ more formats.
+ Its main features are:
+  * Guides and marker for organizing timelines
+  * Copy and paste support for clips, effects and transitions
+  * Real time changes
+  * FireWire and Video4Linux capture
+  * Screen grabbing
+  * Exporting to any by FFMPEG supported format
+ .
+ This package contains the data files for kdenlive.
+
 Package: kdeplasma-addons-data
 Source: kdeplasma-addons
 Version: 4:5.27.5-2
@@ -15580,6 +16276,30 @@ Description: Integration of KF5 widgets in Qt Designer/Creator
  Part of KDE Frameworks.
  .
  This package contains images and translations.
+
+Package: kdevelop-data
+Source: kdevelop
+Version: 4:22.12.2-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 5897
+Breaks: kdevplatform10-libs (<< 5.2)
+Replaces: kdevplatform10-libs (<< 5.2)
+Homepage: https://www.kdevelop.org/
+Priority: optional
+Section: devel
+Filename: pool/main/k/kdevelop/kdevelop-data_22.12.2-1_all.deb
+Size: 4170840
+SHA256: ddb134f9ca39a0dbfb04bd061c841024f117dd1fc46fc930f21fab390863fe28
+SHA1: e223be71e5980f1fe4f35aec70d5806ec1cf710a
+MD5sum: 516c29056fac3db10b0f712cb1b26003
+Description: data files for the KDevelop IDE
+ KDevelop is a Free and Open Source integrated development
+ environment (IDE). It provides editing, navigation and debugging features for
+ several programming languages, as well as integration with multiple build
+ systems and version-control systems, using a plugin-based architecture.
+ .
+ This package contains arch independent data for KDevelop.
 
 Package: kdevelop-l10n
 Source: kdevelop
@@ -16262,6 +16982,26 @@ Description: OpenStack Integration Test Suite - Keystone plugin
  .
  This package contains the Keystone plugin.
 
+Package: kf5-messagelib-data
+Source: kf5-messagelib
+Version: 4:22.12.3-2~deb12u1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 11650
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/pim/messagelib
+Priority: optional
+Section: libs
+Filename: pool/main/k/kf5-messagelib/kf5-messagelib-data_22.12.3-2~deb12u1_all.deb
+Size: 4871620
+SHA256: 80d1b168b68417fdc22640697e07264a32617b6b5f23b36d84c14fe76d14d2a8
+SHA1: 5fe8dbb531d8e989196506ce55724c95cb3a1fa8
+MD5sum: d18c080d109058860bdb0caa5646e4b1
+Description: KDE PIM messaging library, data files
+ This package contains the data files shipped with the message libraries.
+ .
+ This package is part of KDE PIM module.
+
 Package: kgb-bot
 Version: 1.58-1.1
 Architecture: all
@@ -16318,6 +17058,26 @@ Description: client for KGB (IRC collaboration bot)
   * Git
   * Subversion
   * CVS
+
+Package: kgeography-data
+Source: kgeography
+Version: 4:22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 30947
+Homepage: https://edu.kde.org/kgeography
+Priority: optional
+Section: misc
+Filename: pool/main/k/kgeography/kgeography-data_22.12.3-1_all.deb
+Size: 10865148
+SHA256: 1cdaf45dea7cbf1682a05109b4e9299934f0a60ca8866fa957cf4d9dcfe3982a
+SHA1: 7f7183e02711f7d3977ca9e187eac0373aa03b06
+MD5sum: 597758175536881002f12fda455ae84a
+Description: data files for KGeography
+ This package contains architecture-independent data files for the
+ KGeography geography learning tool, including maps, capitals, and flags.
+ .
+ This package is part of the KDE education module.
 
 Package: khal
 Version: 1:0.10.5-1.1
@@ -16573,6 +17333,33 @@ Description: Kicad help files (English)
   * PlEditor - The layout editor for custom title block
   * Plugins - Introduction to the KiCad plugin system
 
+Package: kicad-doc-es
+Source: kicad
+Version: 6.0.11+dfsg-1
+Architecture: all
+Maintainer: Debian Electronics Team <pkg-electronics-devel@alioth-lists.debian.net>
+Installed-Size: 14183
+Multi-Arch: foreign
+Homepage: https://www.kicad.org
+Priority: optional
+Section: doc
+Filename: pool/main/k/kicad/kicad-doc-es_6.0.11+dfsg-1_all.deb
+Size: 12032432
+SHA256: a9151f3643e8538db5bb288395b9d82110e06ca2a44fdf2ea96ceca8a0aee878
+SHA1: b4f730bbf4536777df2dcc38192f6a4bd8f0d02e
+MD5sum: 573566ed15935311fc3383811dec02f1
+Description: Kicad help files (Spanish)
+ This package provides various documentation files for KiCad in Spanish, like
+ the EPUB and the PDF files and also the OnLine HTML documentation for:
+ .
+  * CvPcb - Component association of Footprints
+  * Eeschema - schematic capture editor
+  * GerbView - Gerber file viewer (RS 274 X format)
+  * GSIK - Getting Started in KiCad
+  * KiCad - The main project editor
+  * Pcbnew - The printed circuit board software tool
+  * PlEditor - The layout editor for custom title block
+
 Package: kicad-doc-fr
 Source: kicad
 Version: 6.0.11+dfsg-1
@@ -16598,6 +17385,29 @@ Description: Kicad help files (French)
   * KiCad - The main project editor
   * Pcbnew - The printed circuit board software tool
   * PlEditor - The layout editor for custom title block
+
+Package: kicad-doc-id
+Source: kicad
+Version: 6.0.11+dfsg-1
+Architecture: all
+Maintainer: Debian Electronics Team <pkg-electronics-devel@alioth-lists.debian.net>
+Installed-Size: 7227
+Multi-Arch: foreign
+Homepage: https://www.kicad.org
+Priority: optional
+Section: doc
+Filename: pool/main/k/kicad/kicad-doc-id_6.0.11+dfsg-1_all.deb
+Size: 5999772
+SHA256: dfc9a98b76ebdeb10010599db53cac70b709d8d4062b9b71f026cc1d4279ec6b
+SHA1: b42da398731acdfb1c0b48753a5662943384c998
+MD5sum: f9a38dcafefead438c49c9811bb475a5
+Description: Kicad help files (Indonesian)
+ This package provides various documentation files for KiCad in Indonesian, like
+ the EPUB and the PDF files and also the OnLine HTML documentation for:
+ .
+  * Eeschema - schematic capture editor
+  * GSIK - Getting Started in KiCad
+  * KiCad - The main project editor
 
 Package: kicad-doc-it
 Source: kicad
@@ -16912,6 +17722,30 @@ Description: powerful MUD client with a built-in Perl interpreter - manual
  for out-of-band communications between server and client.
  .
  This package contains the HTML manual for KildClient.
+
+Package: kile-doc
+Source: kile
+Version: 4:2.9.93-2
+Architecture: all
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 8469
+Homepage: https://kile.sourceforge.io
+Priority: optional
+Section: doc
+Filename: pool/main/k/kile/kile-doc_2.9.93-2_all.deb
+Size: 4605676
+SHA256: 8e89c4454decc04933bbd7033121797c332a07c749f7638dd278d8b3793e8fa3
+SHA1: 3c51fcdbfe3ffc04e30a571247de7c410b930516
+MD5sum: 8e78e42748d7be4c12e9624865259ab7
+Description: KDE Integrated LaTeX Environment (documentation)
+ Kile is a user-friendly LaTeX source editor and TeX shell for KDE.
+ .
+ The source editor is a multi-document editor designed for .tex and .bib
+ files.  Menus, wizards and auto-completion are provided to assist with
+ tag insertion and code generation.  A structural view of the document
+ assists with navigation within source files.
+ .
+ This package contains the documentation for Kile.
 
 Package: kile-l10n
 Source: kile
@@ -17232,6 +18066,38 @@ Description: simple easy-to-set-up Git web viewer
  .
  This package contains the command-line server.
 
+Package: kleborate-examples
+Source: kleborate
+Version: 2.3.1-2
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 5863
+Recommends: kleborate
+Multi-Arch: foreign
+Homepage: https://github.com/katholt/Kleborate
+Priority: optional
+Section: science
+Filename: pool/main/k/kleborate/kleborate-examples_2.3.1-2_all.deb
+Size: 5992932
+SHA256: 6039a0ee139e0b5f8a288f2bba298326419dc856c166e53e27da319c2d9ce29f
+SHA1: 935ed83dc273067796db50971d527ed348ac5db1
+MD5sum: 4dcfb2c1f45b7d96de1ed1481de3660b
+Description: tool to screen Klebsiella genome assemblies (example data)
+ Kleborate is a tool to screen Klebsiella genome assemblies for:
+ .
+  * MLST sequence type
+  * species (e.g. K. pneumoniae, K. quasipneumoniae, K. variicola, etc.)
+  * ICEKp associated virulence loci: yersiniabactin (ybt),
+    colibactin (clb)
+  * virulence plasmid associated loci: salmochelin (iro), aerobactin
+    (iuc), hypermucoidy (rmpA, rmpA2)
+  * antimicrobial resistance genes, including quinolone resistance SNPs
+    and colistin resistance truncations
+  * K (capsule) and O antigen (LPS) serotype prediction, via wzi alleles
+    and Kaptive
+ .
+ This package provides example data end tests that are used in autopkgtest.
+
 Package: klettres-data
 Source: klettres
 Version: 4:22.12.3-1
@@ -17320,6 +18186,32 @@ Description: myWin Myanmar (Burmese) Unicode Keyboard
  This keyboard supports the changes in Unicode 5.1.0.
  .
  This software was written and packaged by Keith Stribley.
+
+Package: kmymoney-common
+Source: kmymoney
+Version: 5.1.3-1
+Architecture: all
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 28003
+Depends: perl:any
+Recommends: kmymoney, libfinance-quote-perl
+Homepage: https://kmymoney.org/
+Priority: optional
+Section: kde
+Filename: pool/main/k/kmymoney/kmymoney-common_5.1.3-1_all.deb
+Size: 11807092
+SHA256: 9c42d420f6f1842b7829c9eefa6ca10a344e3840555930fbf7ccedf0865949dd
+SHA1: 34d2575640c33e0a666ddb95312341d4dba4e816
+MD5sum: eeee0a306bd5d4990ef0a36cbf6ae610
+Description: KMyMoney architecture independent files
+ KMyMoney is the Personal Finance Manager for KDE. It operates similar to
+ MS-Money and Quicken, supports different account types, categorisation of
+ expenses, QIF import/export, multiple currencies and initial online banking
+ support.
+ .
+ This package contains architecture independent files needed for KMyMoney to
+ run properly. It also provides KMyMoney documentation. Therefore, unless you
+ have 'kmymoney' package installed, you will hardly find this package useful.
 
 Package: knockpy
 Version: 6.1.0-1
@@ -17806,6 +18698,29 @@ Description: game of dexterity where you match stones together
  static stones. You control a short chain of stones with your mouse to achieve
  that.
 
+Package: kraptor-data
+Source: kraptor
+Version: 0.0.20040403+ds-2
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 10182
+Suggests: kraptor
+Homepage: http://kraptor.sourceforge.net/
+Priority: optional
+Section: games
+Filename: pool/main/k/kraptor/kraptor-data_0.0.20040403+ds-2_all.deb
+Size: 9476668
+SHA256: 3c7e8aba1310261f5939a1a2784c1436fcb97a6b703d362f20b198cf68032dd4
+SHA1: 6ea24755412458f5c15427e7b3152420845ac4a3
+MD5sum: 6e0f1f6962de433323be8f3630394daa
+Description: Classic shoot 'em up scroller game -- data files
+ Kraptor is a classic shoot 'em up scroller game, where you must fight
+ against tons of bad dudes. The game offers high speed action, with massive
+ destruction and lots of fun. Kraptor features a powerful engine for 2D
+ shooter scroller games.
+ .
+ This package contains the game data files.
+
 Package: krb5-config
 Source: kerberos-configs
 Version: 2.7
@@ -18071,6 +18986,25 @@ Description: KTorrent data and other architecture independent files
  a BitTorrent peer-to-peer network client. Unless you have ktorrent package
  installed, you probably won't find this package useful.
 
+Package: ktouch-data
+Source: ktouch
+Version: 4:22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 8185
+Homepage: https://apps.kde.org/en/ktouch
+Priority: optional
+Section: kde
+Filename: pool/main/k/ktouch/ktouch-data_22.12.3-1_all.deb
+Size: 4409776
+SHA256: 09e4e55b7c27cf0f9b01c8b2d25e9cee78b19c47b7dc14c2e504ecb5af977a61
+SHA1: 8ca8a28501231be89a02b0ca5c6daae0ac2de3dc
+MD5sum: b2249aa16480d941b2c01ae8c255bc46
+Description: data files for ktouch
+ This package contains the architecture-independent data files for ktouch.
+ .
+ This package is part of the KDE education module.
+
 Package: ktuberling-data
 Source: ktuberling
 Version: 4:22.12.3-1
@@ -18112,6 +19046,34 @@ MD5sum: 9d5ef9a77be5ccef7e73d05050fc42cc
 Description: Qt library wrapper for Wayland libraries - data files
  KWayland provides a Qt-style Server library wrapper for
  the Wayland libraries.
+
+Package: kwin-data
+Source: kwin
+Version: 4:5.27.5-3
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 18930
+Depends: python3:any
+Recommends: plasma-framework, qml-module-qtmultimedia, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-virtualkeyboard, qml-module-qtquick-window2, qml-module-qtquick2, systemsettings
+Multi-Arch: foreign
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: kde
+Filename: pool/main/k/kwin/kwin-data_5.27.5-3_all.deb
+Size: 5716112
+SHA256: 4cb8a401e3292ac410f12b8ec5029748b2e58f5de4689f35b3dbfc17b3291457
+SHA1: abd4e9b8eaf0528edd0c835ce256b195a8b6c233
+MD5sum: 87d4f2a30504b727cde0ff4ac8c472a2
+Description: KDE window manager data files
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package contains the data files
 
 Package: kxstitch-common
 Source: kxstitch
@@ -26840,6 +27802,31 @@ Description: ExactPrint for GHC; documentation
  programming language.
  See http://www.haskell.org/ for more information on Haskell.
 
+Package: libghc-ghc-lib-parser-doc
+Source: haskell-ghc-lib-parser
+Version: 9.0.2.20211226-2
+Architecture: all
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Installed-Size: 133602
+Depends: haddock-interface-38
+Recommends: ghc-doc, libghc-ghc-lib-parser-dev, libjs-mathjax
+Suggests: libghc-ghc-lib-parser-prof
+Homepage: https://github.com/digital-asset/ghc-lib
+Priority: optional
+Section: doc
+Filename: pool/main/h/haskell-ghc-lib-parser/libghc-ghc-lib-parser-doc_9.0.2.20211226-2_all.deb
+Size: 5935276
+SHA256: 84e8bd3aa1e5b031786dc0e679797ed4f7793a90fe595be77f8d31c8381d0884
+SHA1: 58f2820b5d66aa48ad85a5032a14b202f5a30c17
+MD5sum: 9e51ce1df60b6672843b190d439052b3
+Description: the GHC API, decoupled from GHC versions; documentation
+ A package equivalent to the ghc package, but which can be loaded on
+ many compiler versions.
+ .
+ This package provides the documentation for a library for the Haskell
+ programming language.
+ See http://www.haskell.org/ for more information on Haskell.
+
 Package: libghc-ghc-lib-parser-ex-doc
 Source: haskell-ghc-lib-parser-ex
 Version: 9.0.0.6-2
@@ -27408,6 +28395,30 @@ SHA1: 95a1ed3857af22b29720f42788dcce54fcecfac8
 MD5sum: 3445ba3006b50787cfe2df7e325638ab
 Description: GObject bindings; documentation
  Bindings for GObject, autogenerated by haskell-gi.
+ .
+ This package provides the documentation for a library for the Haskell
+ programming language.
+ See http://www.haskell.org/ for more information on Haskell.
+
+Package: libghc-gi-gtk-doc
+Source: haskell-gi-gtk
+Version: 3.0.39-1
+Architecture: all
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Installed-Size: 231484
+Depends: haddock-interface-38
+Recommends: ghc-doc, libghc-gi-atk-doc, libghc-gi-cairo-doc, libghc-gi-gdk-doc, libghc-gi-gdkpixbuf-doc, libghc-gi-gio-doc, libghc-gi-glib-doc, libghc-gi-gobject-doc, libghc-gi-gtk-dev, libghc-gi-pango-doc, libghc-haskell-gi-base-doc, libjs-mathjax
+Suggests: libghc-gi-gtk-prof
+Homepage: https://github.com/haskell-gi/haskell-gi
+Priority: optional
+Section: doc
+Filename: pool/main/h/haskell-gi-gtk/libghc-gi-gtk-doc_3.0.39-1_all.deb
+Size: 8508924
+SHA256: 4d17dab2005af33b4c3107fccb0a9d65dee1fff38be14462321184f61a733526
+SHA1: 92f3b5feb3a3fd8bd8ffcf8d20c1d78f6018f44f
+MD5sum: d3829d43e4cbabc6b3794c9ced0e6d66
+Description: GTK bindings; documentation
+ Bindings for GTK, autogenerated by haskell-gi.
  .
  This package provides the documentation for a library for the Haskell
  programming language.
@@ -46920,6 +47931,28 @@ Description: H2O library headers
  .
  This package provides the H2O library headers needed by developers.
 
+Package: libhalide14-doc
+Source: halide
+Version: 14.0.0-3
+Architecture: all
+Maintainer: Roman Lebedev <lebedev.ri@gmail.com>
+Installed-Size: 4655
+Enhances: libhalide14-0-dev
+Multi-Arch: foreign
+Homepage: https://halide-lang.org/
+Priority: optional
+Section: doc
+Filename: pool/main/h/halide/libhalide14-doc_14.0.0-3_all.deb
+Size: 4536152
+SHA256: 34c02a8fc809437bdd1b4d69ca9a7e7048a443871002c673d9e78d0bc0b0be7d
+SHA1: 690e01e191bb142d9b7d77fb523af51cdceedf7e
+MD5sum: 112525e1f48a2f98731216fed2cee7cc
+Description: fast, portable computation on images and tensors (C++ documentation)
+ Halide is a programming language designed to make it easier to write
+ high-performance image and array processing code on modern machines.
+ .
+ This package contains README's and tutorials for using Halide from C++.
+
 Package: libhalideaot14-0
 Source: halide
 Version: 14.0.0-3
@@ -48141,6 +49174,29 @@ Description: Java library of utilities to manage files and compute statistics
  classes, hashtables, network-related classes, as well as a set of classes
  allowing for the computation of statistics.
 
+Package: libicu4j-4.4-java
+Source: icu4j-4.4
+Version: 4.4.2.2-4
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 6635
+Homepage: http://www.icu-project.org
+Priority: optional
+Section: java
+Filename: pool/main/i/icu4j-4.4/libicu4j-4.4-java_4.4.2.2-4_all.deb
+Size: 5758404
+SHA256: eb66bc1d9670dcbd7570278f26484a3c8ca05b3cfa3180f052b97258b5b5a0a8
+SHA1: 50403cb60370a82bc47392d528b54152be93bc32
+MD5sum: 65a5fa1eb25ac6cf35ca4b81495d22c9
+Description: Library for Unicode support and internationalization
+ ICU is a mature, widely used set of C/C++ and Java libraries for
+ Unicode support, software internationalization and globalization
+ (i18n/g11n). It grew out of the JDK 1.1 internationalization APIs, which
+ the ICU team contributed, and the project continues to be developed
+ for the most advanced Unicode/i18n support. ICU is widely portable and
+ gives applications the same results on all platforms and between C/C++
+ and Java software.
+
 Package: libicu4j-java
 Source: icu4j
 Version: 72.1-1
@@ -48665,6 +49721,27 @@ Description: transitional package for libjetbrains-annotations-java-doc
  This package contains symlinks to the actual documentation now in
  libjetbrains-annotations-java, and can be safely removed.
 
+Package: libintellij-core-java
+Source: intellij-community-idea
+Version: 183.5153.4-3
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 7683
+Homepage: https://github.com/JetBrains/intellij-community
+Priority: optional
+Section: java
+Filename: pool/main/i/intellij-community-idea/libintellij-core-java_183.5153.4-3_all.deb
+Size: 7073512
+SHA256: 5d53d8fe3c252234e785a51c23c4bf9afedccf4aff3af45ad9dd42862c91bc8e
+SHA1: c251807713f8beb75fbf5033c1ff6061c990faa7
+MD5sum: 1902613c67e2362bf19c7a5c7fb51fd4
+Description: IntelliJ IDEA Core API
+ IntelliJ IDEA Community Edition is a Java integrated development environment
+ (IDE) for developing computer software.
+ .
+ This package contains the platform:core-impl, platform:core-api, platform:util
+ and platform:util-rt artifacts.
+
 Package: libintellij-extensions-java
 Source: intellij-community-idea
 Version: 183.5153.4-3
@@ -48961,6 +50038,29 @@ Description: library for managing Intel Optane DC persistent memory modules
   * Debug and troubleshoot PMMs
  .
  This package contains common conf files.
+
+Package: libirrlicht-doc
+Source: irrlicht
+Version: 1.8.5+ds2-1
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 49019
+Multi-Arch: foreign
+Homepage: http://irrlicht.sf.net
+Priority: optional
+Section: doc
+Filename: pool/main/i/irrlicht/libirrlicht-doc_1.8.5+ds2-1_all.deb
+Size: 9321728
+SHA256: 88dadad1e8d8bf373c97a7b0c98be458310d1fd26f6d30b3a8d23ba0a7bb0770
+SHA1: aedf978067b2dd08d6936ca40816803acf633445
+MD5sum: b9c30a6c9f2227567dc8ea6700007a39
+Description: High performance realtime 3D engine (API documentation)
+ The Irrlicht Engine is an open source completely cross-platform 3D engine.
+ It has support for OpenGL and its own software renderer,
+ and has all of the state-of-the-art features
+ which can be found in commercial 3d engines.
+ .
+ This package contains the API documentation and examples.
 
 Package: libismrmrd-doc
 Source: ismrmrd
@@ -50754,6 +51854,28 @@ Description: JAXB-2 Maven Plugin
  Mojo's JAXB-2 Maven plugin is used to create an object graph from XSDs
  based on the JAXB 2.x implementation and to generate XSDsfrom JAXB annotated
  Java classes.
+
+Package: libjaxe-java
+Source: jaxe
+Version: 3.5-14
+Architecture: all
+Maintainer: Samuel Thibault <sthibault@debian.org>
+Installed-Size: 35126
+Depends: libavalon-framework-java, libbatik-java, libcommons-io-java, libcommons-logging-java, libfop-java, libjazzy-java, libjing-java, liblog4j1.2-java, libsaxonhe-java, libxml-commons-resolver1.1-java, libxalan2-java, libxerces2-java, libcortado-java, libxml-commons-external-java, libxmlgraphics-commons-java, libxsltc-java
+Multi-Arch: foreign
+Homepage: https://jaxe.sourceforge.net/
+Priority: optional
+Section: java
+Filename: pool/main/j/jaxe/libjaxe-java_3.5-14_all.deb
+Size: 6279448
+SHA256: 36d8e6f75a3212ffa7a7b5074321535572b2b53ce6f72ade23d161545e5314e9
+SHA1: ef7753c4155df8b684efe04853dd120df099b576
+MD5sum: 9fde4b9369d590d5cf30ad4d6e5e6490
+Description: JAva Xml Editor - library
+ Jaxe is an XML editor adaptable to XML languages. It uses an XML schema and a
+ configuration file for the graphical user interface.
+ .
+ This package provides a java library to run Jaxe.
 
 Package: libjaxe-java-doc
 Source: jaxe
@@ -53398,6 +54520,32 @@ Description: Java library for testing code with mock objects
   * works well with the autocompletion and refactoring features of your IDE
   * plugs into your favourite test framework
   * is easy to extend.
+
+Package: libjmol-java
+Source: jmol
+Version: 14.32.83+dfsg-2
+Architecture: all
+Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Installed-Size: 16679
+Depends: libcommons-cli-java, libjni-inchi-java, libnaga-java
+Suggests: libjmol-java-doc (= 14.32.83+dfsg-2)
+Homepage: https://jmol.sourceforge.net/
+Priority: optional
+Section: java
+Filename: pool/main/j/jmol/libjmol-java_14.32.83+dfsg-2_all.deb
+Size: 8698504
+SHA256: 2ece64e272896672cf03209fff5e622d667bfd28a57b87310b0e60d8e2dc4bf0
+SHA1: 513ed8111eed2ff04c9a8ab6ababaae4eeedee83
+MD5sum: 9228cdab156eb073a29ed01a48e83993
+Description: Java library for molecular structures
+ Jmol is a Java molecular viewer for three-dimensional chemical structures.
+ Features include reading a variety of file types and output from quantum
+ chemistry programs, and animation of multi-frame files and computed normal
+ modes from quantum programs.  It includes with features for chemicals,
+ crystals, materials and biomolecules.  Jmol might be useful for students,
+ educators, and researchers in chemistry and biochemistry.
+ .
+ This package contains the Jmol Java libraries.
 
 Package: libjmol-java-doc
 Source: jmol
@@ -56571,6 +57719,27 @@ Description: library for working with serial ports from Java - doc
  .
  This package contains the Javadoc API
 
+Package: libjtharness-java
+Source: jtharness
+Version: 6.0-b24-1
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 4399
+Depends: junit4, libasm-java (>= 5.0), librxtx-java, libservlet-api-java
+Homepage: https://wiki.openjdk.java.net/display/CodeTools/JT+Harness
+Priority: optional
+Section: java
+Filename: pool/main/j/jtharness/libjtharness-java_6.0-b24-1_all.deb
+Size: 4170852
+SHA256: e9625d4a3647d871c99ac0ea10a8137e564de0069f4d3f859506c1689e564441
+SHA1: 3dc8996f80fc60289126f853e3cca095355c3404
+MD5sum: 675eb2533004d448ac7aed653f5eaa19
+Description: General purpose test harness for Java
+ The JT harness is a general purpose, fully-featured, flexible, and configurable
+ test harness very well suited for most types of unit testing. Originally
+ developed as a test harness to run TCK test suites, it has since evolved into a
+ general purpose test platform.
+
 Package: libjtidy-java
 Source: jtidy
 Version: 7+svn20110807-5
@@ -56666,6 +57835,32 @@ Description: Documentation for the JTS Topology Suite
   * javadoc for libjts-java
   * developer's guide
   * technical specifications
+
+Package: libjuce-doc
+Source: juce
+Version: 7.0.5+ds-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 104947
+Suggests: juce-modules-source
+Multi-Arch: foreign
+Homepage: https://www.juce.com
+Priority: optional
+Section: doc
+Filename: pool/main/j/juce/libjuce-doc_7.0.5+ds-1_all.deb
+Size: 4859852
+SHA256: 698a10f170889734b1a7ccb3a725e9fc651061b2b701f94fcf05e6aa7e387340
+SHA1: da1636a722eb95d06cd107f0354d36a94f6e40fc
+MD5sum: 888fc528cc5e57808ee2661f96f04c13
+Description: Jules' Utility Class Extensions (documentation)
+ JUCE (Jules' Utility Class Extensions) is an all-encompassing C++ framework for
+ developing cross-platform software.
+ .
+ It contains pretty much everything you're likely to need to create most
+ applications, and is particularly well-suited for building highly-customised
+ GUIs, and for handling graphics and sound.
+ .
+ This package contains html documentation for the JUCE API.
 
 Package: libjug-java
 Source: jug
@@ -59439,6 +60634,31 @@ Description: utility library for Puppet Labs clojure projects
  kitchensink is a library of utility functions that are common to several
  Puppet Labs Clojure projects.
 
+Package: libklatexformula4-doc
+Source: klatexformula
+Version: 4.1.0-1
+Architecture: all
+Maintainer: Tobias Winchen <tobias@winchen.de>
+Installed-Size: 17156
+Multi-Arch: foreign
+Homepage: https://klatexformula.sourceforge.io/
+Priority: optional
+Section: doc
+Filename: pool/main/k/klatexformula/libklatexformula4-doc_4.1.0-1_all.deb
+Size: 5234396
+SHA256: 8b21cf758a1f597051722f251dce4bf7b3a551bb3b8c0e092b6fead170680749
+SHA1: 5c4a1d8c3557ebf5052eef58f168f0ce5bbd2839
+MD5sum: 3d30db7a1c49e16ba5087e27d70514ed
+Description: Runtime libraries for klatexformula, API documentation
+ With Klatexformula, just enter a formula and click "Evaluate" to get an image
+ of a LaTeX formula. You can drag&drop, copy or save the resulting image
+ directly from the GUI, which makes klatexformula a very convenient tool for
+ presentations. Klatexformula also provides also tools for equation prototyping
+ in LaTeX and a user-library of used equations.
+ .
+ This package contains API documentation for developers who wish to use the
+ klatexformula libraries klftools and klfbackend.
+
 Package: libknet-doc
 Source: kronosnet
 Version: 1.25-1
@@ -61373,6 +62593,36 @@ Description: Simple interactive astronomical image examination and plotting (Doc
  .
  This package contains the API documentation.
 
+Package: python-ipyparallel-doc
+Source: ipyparallel
+Version: 7.1.0-5
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 7350
+Depends: libjs-sphinxdoc (>= 5.2)
+Suggests: python3-doc, python-ipython-doc, python-jupyter-client-doc, python-pymongo-doc
+Multi-Arch: foreign
+Homepage: https://github.com/ipython/ipyparallel
+Priority: optional
+Section: doc
+Filename: pool/main/i/ipyparallel/python-ipyparallel-doc_7.1.0-5_all.deb
+Size: 4576436
+SHA256: 81e4ac46650971502843206b8ee32a5ba5778910cf08f65579e09297ae99a1ba
+SHA1: 2b0127db080ffac47f8ba14aef60b2a9cd9ace54
+MD5sum: 38e235d639b13c79c5ef163415012450
+Description: Interactive Parallel Computing with IPython (documentation)
+ ipyparallel is a Python package and collection of CLI scripts
+ for controlling clusters for Jupyter. ipyparallel is the new home
+ of IPython.parallel.
+ .
+ ipyparallel contains the following CLI scripts:
+ .
+    ipcluster - start/stop a cluster
+    ipcontroller - start a scheduler
+    ipengine - start an engine
+ .
+ This is the documentation package for ipyparallel.
+
 Package: python-ipython-doc
 Source: ipython
 Version: 8.5.0-4
@@ -61619,6 +62869,37 @@ Description: Python library of containers, text and i18n helpers (common documen
    * Tools to help deal with PEP386 version format
  .
  This is the common documentation package.
+
+Package: python-kivy-examples
+Source: kivy
+Version: 2.1.0-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 9842
+Depends: python3-kivy
+Homepage: https://kivy.org
+Priority: optional
+Section: python
+Filename: pool/main/k/kivy/python-kivy-examples_2.1.0-1_all.deb
+Size: 8675596
+SHA256: ad619d8291a888b59e6f1942db52ad7f3c03373c195d6fc449fbf01721b4f4a1
+SHA1: 2b3ea5c7d31ae31c4af608e135dacb3a8362e624
+MD5sum: 4a384596bf48071ae5cc4894a95c89ad
+Description: Kivy - Multimedia / Multitouch framework in Python (examples)
+ Kivy is an open source library for developing multi-touch applications. It is
+ completely cross platform (Linux/OSX/Win/Android) and released under the terms
+ of the MIT license.
+ .
+ It comes with native support for many multi-touch input devices, a growing
+ library of multi-touch aware widgets, hardware accelerated OpenGL drawing, and
+ an architecture that is designed to let you focus on building custom and highly
+ interactive applications as quickly and easily as possible.
+ .
+ Kivy is a mixed Python library with Cython code, to take advantage of its
+ highly dynamic nature and use any of the thousands of high quality and open
+ source Python libraries out there, with the speed of C code.
+ .
+ This package includes all examples which can be found in the git repository.
 
 Package: python-kombu-doc
 Source: kombu
@@ -62157,6 +63438,27 @@ Description: Traditional German wordlist
  (de-DE-1901).  For the current orthography (de-DE-1996) see package
  wngerman.
 
+Package: wpolish
+Source: ipolish
+Version: 20220301-1
+Architecture: all
+Maintainer: Robert Luberda <robert@debian.org>
+Installed-Size: 59021
+Depends: debconf (>= 0.5) | debconf-2.0, perl:any, dictionaries-common (>= 1.0)
+Provides: wordlist
+Homepage: https://sjp.pl/
+Priority: optional
+Section: text
+Filename: pool/main/i/ipolish/wpolish_20220301-1_all.deb
+Size: 7871008
+SHA256: 78d94681b9838aeb8419629d5ce378085e0db6a22517c3c170aa883451cc9ccf
+SHA1: f31412d41f4715e3e022ae847015a4e395b72aa4
+MD5sum: 9942fe611c7f2edc3e7db067b871436b
+Description: Polish dictionary words for /usr/share/dict
+ This package provides the file /usr/share/dict/polish containing a list
+ of Polish words.  This list can be used by spelling checkers, and by
+ programs such as look(1).
+
 Package: wportuguese
 Source: ispell.pt
 Version: 20220621-1
@@ -62273,6 +63575,30 @@ Description: international fonts for X - (south-east) Asian
  This package includes some Indian, Lao, Thai, and Vietnamese fonts. You
  will need these fonts if you plan to view, print, or author documents
  written in the above languages/scripts.
+ .
+ The fonts are for use with the X Window System.
+
+Package: xfonts-intl-chinese
+Source: intlfonts
+Version: 1.2.1-10.1
+Architecture: all
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 6404
+Depends: xfonts-utils
+Suggests: xfs | xserver, xfonts-intl-chinese-big, xfonts-cjk, emacs-intl-fonts
+Conflicts: intlfonts-chinese
+Replaces: intlfonts-chinese
+Priority: optional
+Section: x11
+Filename: pool/main/i/intlfonts/xfonts-intl-chinese_1.2.1-10.1_all.deb
+Size: 5671592
+SHA256: b1a74adf153e0bce9c035f3f6f1841b66d189a21faae2c70939ae0b724a53f04
+SHA1: c3e52af6ffa6c2b17343b59b339c16f9e1d98c6b
+MD5sum: 064f9543847c0c6fabfae1064327af6a
+Description: international fonts for X - Chinese
+ This package includes some GB2312, GB8565-88, Big5 (ETen), and SiSheng
+ Chinese fonts. You will need these fonts if you plan to view, print, or
+ author documents written in Chinese using the above encodings.
  .
  The fonts are for use with the X Window System.
 
